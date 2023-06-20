@@ -1,0 +1,49 @@
+:root {
+
+    /* I used an online color picker to grab the color of the sky and then adobe color wheel to come up with a shades color pallete based off the sky color as well as a few complementary colors! */
+    
+    /* color scheme: */
+    --light-blue: #C9EAFF;
+    --light-pink: #FFE3E3;
+    --matte-blue: #7B9DB3;
+
+    /* shades of --light-blue (darker with increasing number): */
+    --shade1: #B5D3E6;
+    --shade2: #97B0BF;
+    --shade3: #657580;
+    --shade4: #323B40;
+
+    /* transparent alternatives to existing color scheme: */
+    --trans-shade2: rgba(151, 176, 191, .9);
+    --trans-shade4: rgba(50, 59, 64, .9);
+    --alt-trans-shade4: rgba(50, 59, 64, .5);
+
+    /* Google fonts: */
+    --rubik: 'Rubik', sans-serif;
+    --dirt: 'Rubik Dirt', cursive;
+    --distressed: 'Rubik Distressed', cursive;
+    --body-font: 'Josefin Sans', sans-serif;
+}
+
+body {
+    /* set background image for entire body that will be there regardless of what component is shown */
+    /* This picture was taken on a family trip in TN! */
+    background-image: url("../img/background.webp");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    /* fixed background for continuity */
+    background-attachment: fixed;
+    font-family: var(--body-font);
+    min-height: 100vh;
+}
+
+.text-pink {
+    color: var(--light-pink);
+}
+
+main {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+/* TODO: Decide whether you want to change the styled components back to divs so animation doesnt take away bg color */
