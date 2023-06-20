@@ -10,6 +10,7 @@ import '../styles/navbar.css';
 import '../styles/homepage.css';
 import '../styles/mobile-welcome.css';
 import '../styles/welcome.css';
+import '../styles/footer.css';
 
 // components
 import Layout from './Layout';
