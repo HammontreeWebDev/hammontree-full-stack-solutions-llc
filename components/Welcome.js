@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-// css
-import '../styles/welcome.module.css';
 // video
 import introVideo from '../public/videos/final-web-intro.mp4';
 // iconify

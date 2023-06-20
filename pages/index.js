@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/homepage.module.css';
-// css
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Welcome from '../components/Welcome';
 import MobileWelcome from '../components/MobileWelcome';

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import '../styles/mobile-welcome.module.css';
 import mobileVideo from '../public/videos/mobile-intro.mp4';
 // import mobileThumb from './assets/img/thumbnail.png';
 import { Icon, enableCache } from '@iconify/react';
