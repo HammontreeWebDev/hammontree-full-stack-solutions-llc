@@ -14,6 +14,7 @@ import '../styles/footer.css';
 import '../styles/aboutme.css';
 import '../styles/portfolio.css';
 import '../styles/services.css';
+import '../styles/socials.css';
 
 // components
 import Layout from './Layout';
