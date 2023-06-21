@@ -106,17 +106,6 @@ function Contact(props) {
     const isEmailValid = checkEmail ? <span className='text-danger'> * please enter a valid email address</span> : null;
     const isMessageRequired = messageRequired ? <span className='text-danger'> * required</span> : null;
 
-    // border: none; min-height: 600px
-
-    // adjust height of iframe
-    const iframe = document.querySelector('#myIframe');
-    const [height, setHeight] = useState('0px');
-    const ref = React.useRef();
-    const adjustHeight = () => {
-        // iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-        setHeight(ref.current.contentWindow.document.body.scrollHeight + 'px');
-    }
-
     return (
         <>
             <Head>
