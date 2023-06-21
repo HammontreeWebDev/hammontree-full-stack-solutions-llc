@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#  Hammontree Full-Stack Solutions LLC
+  ## Table of Contents
+  1. **[Description](#description)**<br>
+  2. **[Usage](#usage)**<br>
+  3. **[Questions](#questions)**<br>
+  ## Description
+  This is the website for Hammontree Full-Stack Solutions LLC. The website was built using Next.js and React.<br><br>Things You Can Do:<br><br> 1. Discover who Kaileb Hammontree is on the About Me page<br><br>2. Explore Kaileb's portfolio on the Portfolio page.<br><br>3. Check out the services that Hammontree Full-Stack Solutions LLC has to offer on the Services page.<br><br>4. Connect with Kaileb and Hammontree Full-Stack Solutions LLC via social media on the Socials page<br><br>5. Fill out a general inquiry form, website interest form, and book a free consulation on the Contact Me page<br><br>5. View Kaileb's skills and download his resume on the Resume page.
+  ## Usage
+  Navigate to https://www.kailebhammontree.com/ and let's have a chat after you have looked around!
+  ## Questions
+  For additional questions, please contact:<br>
+  GitHub: https://github.com/HammontreeWebDev<br>
+  Email: kaileb@hammontreefullstacksolutions.com
