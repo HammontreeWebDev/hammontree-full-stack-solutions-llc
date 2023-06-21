@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { BounceInDownHeader } from '../utils/Animations';
-import navNameLogo from '../public/img/trans-web-header.webp';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 export function NavBar(props) {
@@ -20,7 +19,7 @@ export function NavBar(props) {
     <BounceInDownHeader className='header-bg'>
       <img
         className='nav-img'
-        src={navNameLogo}
+        src="/img/trans-web-header.webp"
         alt='Avatar of Kaileb with his name and text that says Full-Stack Web Development'
       />
       <nav className='container-fluid custom-nav'>

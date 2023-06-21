@@ -1,0 +1,88 @@
+/* !important on override of bootstrap */
+.custom-card {
+    width: 70%;
+    /* font-family: var(--rubik); */
+    border-radius: 1rem;
+    margin: 3%;
+}
+
+.about-me-body {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card-header {
+    background-color: var(--light-blue);
+    color: var(--shade4);
+    margin-bottom: 0;
+    padding: 1%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.custom-card-body {
+    background-color: var(--shade4);
+    padding: 1%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.card-title {
+    color: var(--matte-blue);
+}
+
+.card-text {
+    color: var(--shade1);
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 15%;
+    border-radius: 100%;
+    margin-right: 1%;
+}
+
+.card-name {
+    color: var(--light-blue);
+}
+/* media queries */
+/* Surface Duo */
+@media screen and (max-width: 540px) {
+    
+    .custom-card {
+        width: 85%;
+    }
+
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media screen and (max-width: 412px) {
+    
+    .custom-card {
+        width: 100%;
+    }
+
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .card-title {
+        font-size: 100%;
+    }
+
+    .custom-card-header {
+        font-size: 120%;
+    }
+
+    .card-text {
+        font-size: 90%;
+    }
+}

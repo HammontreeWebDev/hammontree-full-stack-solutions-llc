@@ -3,7 +3,7 @@ import React from 'react';
 // css libraries
 import 'hover.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// ! originally created in react app so unfortunately some of the css is used in other components, therefore we will be importing all of the files globally, will refactor at some point to condense the amount of css being served globally
+// ! originally deployed using create-react-app so unfortunately some of the css is used in other components, therefore we will be importing all of the files globally, will refactor at some point to condense the amount of css being served globally
 // global css
 import '../styles/style.css';
 import '../styles/navbar.css';
@@ -11,6 +11,7 @@ import '../styles/homepage.css';
 import '../styles/mobile-welcome.css';
 import '../styles/welcome.css';
 import '../styles/footer.css';
+import '../styles/aboutme.css';
 
 // components
 import Layout from './Layout';
