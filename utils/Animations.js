@@ -109,6 +109,12 @@ export const FadeInSection = styled.section`
 animation: 1.9s ${fadeInSection}
 `;
 
+// fadeIn Ul
+const fadeInUl = keyframes`${fadeIn}`;
+export const FadeInUl = styled.ul`
+animation: 3s ${fadeInUl}
+`;
+
 // longer fadeIn Animation
 const longerFadeInAnimation = keyframes`${fadeIn}`;
 export const LongFadeInDiv = styled.div`
@@ -122,7 +128,12 @@ animation: 1.5s ${BounceMainAnimation}
 `;
 
 // Fade In Up Section
-const FadeInUpAnimation = keyframes`${fadeInUp}`;
+const fadeInUpAnimation = keyframes`${fadeInUp}`;
 export const FadeInUpSection = styled.div`
-animation: 1.5s ${FadeInUpAnimation}
+animation: 1.5s ${fadeInUpAnimation}
+`;
+
+// Fade In Up H5
+export const FadeInUpH5 = styled.h5`
+animation: 3s ${fadeInUpAnimation}
 `;

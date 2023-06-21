@@ -1,5 +1,5 @@
 import React from 'react';
-import { RollInSection } from '../utils/Animations';
+import { FadeInSection, FadeInUl, FadeInUpH5 } from '../utils/Animations';
 import { Icon } from '@iconify/react';
 import Head from 'next/head';
 
@@ -15,13 +15,13 @@ function Resume(props) {
                 <link rel="canonical" href="https://www.kailebhammontree.com/resume" />
             </Head>
             <main className='about-me-body'>
-                <RollInSection className=' custom-card'>
+                <FadeInSection className=' custom-card'>
                     <div className='resume-card-header'>
                         <h2> Resume <span><a className='resume-btn hvr-skew hvr-pulse-grow' href="/pdf/Technical-Resume.pdf" download='Kaileb_Hammontree_Resume' target='blank'><Icon icon='material-symbols:arrow-forward-rounded' /> <Icon icon='icon-park-solid:folder-download' /></a></span> </h2>
                     </div>
                     <div className='custom-card-body resume-body'>
-                        <h5 className='skill-title'>Front-End Skills:</h5>
-                        <ul className='skill-container'>
+                        <FadeInUpH5 className='skill-title'>Front-End Skills:</FadeInUpH5>
+                        <FadeInUl className='skill-container'>
                             <div className='skill-item'>
                                 <li>HTML5</li>
                                 <li>JavaScript</li>
@@ -37,10 +37,10 @@ function Resume(props) {
                                 <li>ReactJS</li>
                                 <li>Handlebars</li>
                             </div>
-                        </ul >
+                        </FadeInUl >
 
-                        <h5 className='skill-title'>Back-End Skills:</h5>
-                        <ul className='skill-container'>
+                        <FadeInUpH5 className='skill-title'>Back-End Skills:</FadeInUpH5>
+                        <FadeInUl className='skill-container'>
                             <div className='skill-item'>
                                 <li>SQL / MySQL (DBeaver)</li>
                                 <li>Node.js</li>
@@ -56,10 +56,10 @@ function Resume(props) {
                                 <li>Python (advanced concepts in progress)</li>
                                 <li>Java (in progress)</li>
                             </div>
-                        </ul >
+                        </FadeInUl >
 
-                        <h5 className='skill-title'>General Skills & Technology:</h5>
-                        <ul className='skill-container'>
+                        <FadeInUpH5 className='skill-title'>General Skills & Technology:</FadeInUpH5>
+                        <FadeInUl className='skill-container'>
                             <div className='skill-item'>
                                 <li>MERN Stack</li>
                                 <li>Babeljs</li>
@@ -73,10 +73,10 @@ function Resume(props) {
                                 <li>Algorithms</li>
                                 <li>Agile Methodology</li>
                             </div>
-                        </ul >
+                        </FadeInUl >
 
-                        <h5 className='skill-title'>Cyber Security Knowledge:</h5>
-                        <ul className='skill-container'>
+                        <FadeInUpH5 className='skill-title'>Cyber Security Knowledge:</FadeInUpH5>
+                        <FadeInUl className='skill-container'>
                             <div className='skill-item'>
                                 <li>Linux Security</li>
                                 <li>Microsoft Security</li>
@@ -92,10 +92,10 @@ function Resume(props) {
                                 <li>Game Theory</li>
                                 <li>Amazon Web Services</li>
                             </div>
-                        </ul >
+                        </FadeInUl >
 
                     </div>
-                </RollInSection>
+                </FadeInSection>
             </main>
         </>
     )
