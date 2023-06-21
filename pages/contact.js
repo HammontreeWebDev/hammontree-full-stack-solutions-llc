@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RotateInUpRightSection } from '../utils/Animations'
+import { FadeInSection, BounceInRightP, BounceInRightLabel } from '../utils/Animations'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import Head from 'next/head';
@@ -116,36 +116,36 @@ function Contact(props) {
             </Head>
             <main className='contact-main'>
 
-                <RotateInUpRightSection className='form-card'>
+                <FadeInSection className='form-card'>
                     <h2 className='form-header'>General Inquiry Form</h2>
                     <form className='form-card-body' onSubmit={handleOnSubmit}>
                         <div className="mb-3">
-                            <label htmlFor="nameInput" className="form-label">Name:{isNameRequired} </label>
+                            <BounceInRightLabel htmlFor="nameInput" className="form-label">Name:{isNameRequired} </BounceInRightLabel>
                             <input type="text" className="form-control" id="nameInput" name='from_name' placeholder="First Name Last Name" onMouseLeave={blankName} onChange={validName} />
                         </div>
                         <div className="mb-3">
-                            <label htmlFor="emailInput" className="form-label">Email address:{isEmailRequired}{isEmailValid}</label>
+                            <BounceInRightLabel htmlFor="emailInput" className="form-label">Email address:{isEmailRequired}{isEmailValid}</BounceInRightLabel>
                             <input type="email" className="form-control" id="emailInput" name='from_email' placeholder="myemail@example.com" onMouseLeave={blankEmail} onChange={validEmail} />
                         </div>
                         <div className="mb-3">
-                            <label htmlFor='messageInput' className="form-label">Message:{isMessageRequired}</label>
+                            <BounceInRightLabel htmlFor='messageInput' className="form-label">Message:{isMessageRequired}</BounceInRightLabel>
                             <textarea className="form-control" id="messageInput" rows="6" name='message' onMouseLeave={blankMessage} onChange={validMessage}></textarea>
                         </div>
                         <button className='custom-btn hvr-shrink' type='submit'>Submit</button>
                     </form>
-                </RotateInUpRightSection>
+                </FadeInSection>
 
-                <RotateInUpRightSection className='form-card interest-form'>
-                    <h2 className='form-header'>Start Your Project
-                        <br />
-                        <span className='consult-text'>
+                <FadeInSection className='form-card interest-form'>
+                    <div className="form-header">
+                    <h2>Start Your Project</h2>
+                        <BounceInRightP className='consult-text'>
                             Book Now For A&nbsp;
                             <a id="consult" href='https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation' target='_blank' rel="noopener noreferrer" className='consult-link'>Free Consultation</a>
-                        </span>
-                    </h2>
+                        </BounceInRightP>
+                    </div>
                     {/* <button className='custom-btn'>Get Started</button> */}
                     <iframe title='interest-form' id='interest-iframe' src="https://app.hellobonsai.com/f/a14a29cd17402aa?embed=true" width="100%" height="100%" style={{ border: 'none' }}></iframe>
-                </RotateInUpRightSection>
+                </FadeInSection>
             </main>
         </>
     );

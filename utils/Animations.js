@@ -20,6 +20,18 @@ export const BounceInRightH5 = styled.h5`
 animation: 3s ${bounceInRightH5}
 `;
 
+// ----- Bounce in Right P ------ //
+const bounceInRightP = keyframes`${bounceInRight}`;
+export const BounceInRightP = styled.p`
+animation: 3s ${bounceInRightP}
+`;
+
+// ----- Bounce in Right Label ------ //
+const bounceInRightLabel = keyframes`${bounceInRight}`;
+export const BounceInRightLabel = styled.label`
+animation: 3s ${bounceInRightLabel}
+`;
+
 // ----- RollIn Animation  Div------ //
 const rollInAnimation = keyframes`${rollIn}`;
 export const RollInDiv = styled.div`
