@@ -1,10 +1,17 @@
 import React from 'react';
 import { FlipInXSection } from '../utils/Animations';
+import Head from 'next/head';
 
 function AboutMe(props) {
 
     return (
         <>
+        <Head>
+        <title> About Me | Kaileb Hammontree | Full-Stack Developer</title>
+        <meta name="description" content="Learn more about Kaileb Hammontree, the owner of Hammontree Full-Stack Solutions, LLC." />
+        <meta name="keywords" content="About Me, Bio, Kaileb Hammontree, University Of Central Florida, Web Developer" />
+        <link rel="canonical" href="https://www.kailebhammontree.com/about_me" />
+      </Head>
         <main className='about-me-body main-bg'>
             <FlipInXSection className=' custom-card'>
                 <h2 className='custom-card-header'>
