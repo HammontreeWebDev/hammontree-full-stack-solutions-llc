@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../components/Project";
 import Swal from 'sweetalert2';
+import Head from "next/head";
 
 const Portfolio = (props) => {
 
@@ -14,6 +15,12 @@ const Portfolio = (props) => {
 
   return (
     <>
+      <Head>
+        <title> Portfolio | Kaileb Hammontree | Full-Stack Developer</title>
+        <meta name="description" content="Explore Kaileb Hammontree's Project Portfolio. Discover what projects he has worked on and find out what Hammontree Full-Stack Solutions can do for you!" />
+        <meta name="keywords" content="Portfolio, Web Development, Full-Stack Development, Kaileb Hammontree" />
+        <link rel="canonical" href="https://www.kailebhammontree.com/portfolio" />
+      </Head>
       <main className='portfolio-body'>
         {/* BroFit Personal Training */}
         <Project src={"/img/brofit.webp"} deployment={'https://www.reesewilder.com/'} click={privateAlert} alt={'screenshot of BroFit Personal Training website'} appTitle={'BroFit Personal Training'} content={'HTML | BootStrap | CSS | JavaScript'} />
