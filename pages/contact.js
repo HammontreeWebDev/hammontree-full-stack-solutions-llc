@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { RotateInUpRightSection } from '../utils/Animations'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import Head from 'next/head';
 
 function Contact(props) {
 
@@ -118,6 +119,12 @@ function Contact(props) {
 
     return (
         <>
+            <Head>
+                <title> Contact | Start Your Project Today | Hammontree Full-Stack Solutions LLC</title>
+                <meta name="description" content="Start your project today with Hammontree Full-Stack Solutions LLC. Fill out a General Inquiry Form or take the first step by filling out an Interest Form Questionnaire. Why stop there when you can also book a Free Consultation!" />
+                <meta name="keywords" content="Contact, Hammontree Full-Stack Solutions LLC, Free Consultation, Questionnaire, Build your website" />
+                <link rel="canonical" href="https://www.kailebhammontree.com/contact" />
+            </Head>
             <main className='contact-main'>
 
                 <RotateInUpRightSection className='form-card'>
@@ -140,12 +147,12 @@ function Contact(props) {
                 </RotateInUpRightSection>
 
                 <RotateInUpRightSection className='form-card interest-form'>
-                    <h2 className='form-header'>Start Your Project 
-                    <br />
-                    <span className='consult-text'>
-                        Book Now For A&nbsp;
-                    <a id="consult" href='https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation' target='_blank' rel="noopener noreferrer" className='consult-link'>Free Consultation</a>
-                    </span>
+                    <h2 className='form-header'>Start Your Project
+                        <br />
+                        <span className='consult-text'>
+                            Book Now For A&nbsp;
+                            <a id="consult" href='https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation' target='_blank' rel="noopener noreferrer" className='consult-link'>Free Consultation</a>
+                        </span>
                     </h2>
                     {/* <button className='custom-btn'>Get Started</button> */}
                     <iframe title='interest-form' id='interest-iframe' src="https://app.hellobonsai.com/f/a14a29cd17402aa?embed=true" width="100%" height="100%" style={{ border: 'none' }}></iframe>
