@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
 import { FadeInUpSection, BounceInDownH1, LongFadeInDiv } from "../utils/Animations";
 import Head from "next/head";
 
@@ -45,7 +45,7 @@ const Services = (props) => {
 
                     <FadeInUpSection className="service-column">
                         <h2>Front-End</h2>
-                        <p>For landing pages, portfolios, and other websites that don't require a server to be set up</p>
+                        <p>For landing pages, portfolios, and other websites that don&#39;t require a server to be set up</p>
                         <ul>
                             <li><Icon className="service-icon" icon="devicon:html5" />HTML5</li>
                             <li><Icon className="service-icon" icon="devicon:css3" />CSS3</li>
