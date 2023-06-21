@@ -1,11 +1,23 @@
 // import npm pkg for styled components to use for transition and non hover effects
 import styled, { keyframes } from 'styled-components';
-import { bounceInLeft, rollIn, lightSpeedOut, fadeOut, bounceInDown, flipInX, wobble, zoomInRight, rotateInUpRight, fadeIn, bounce, fadeInUp } from 'react-animations';
+import { bounceInLeft, rollIn, lightSpeedOut, fadeOut, bounceInDown, flipInX, wobble, zoomInRight, rotateInUpRight, fadeIn, bounce, fadeInUp, bounceInRight } from 'react-animations';
 
-// ----- Bouncing Animation ------ //
+// ----- Bounce in Left Animation ------ //
 const bounceAnimation = keyframes`${bounceInLeft}`;
 export const BouncyDiv = styled.div`
 animation: 1.5s ${bounceAnimation}
+`;
+
+// ----- Bounce in Right Img ------ //
+const bounceInRightImg = keyframes`${bounceInRight}`;
+export const BounceInRightImg = styled.img`
+animation: 1.5s ${bounceInRightImg}
+`;
+
+// ----- Bounce in Right H5 ------ //
+const bounceInRightH5 = keyframes`${bounceInRight}`;
+export const BounceInRightH5 = styled.h5`
+animation: 3s ${bounceInRightH5}
 `;
 
 // ----- RollIn Animation  Div------ //
@@ -49,6 +61,12 @@ export const FlipInXSection = styled.section`
 animation: 1.5s ${flipInXAnimation}
 `;
 
+// ----- flip in X Animation ------ //
+const flipInXImg = keyframes`${flipInX}`;
+export const FlipInXImg = styled.img`
+animation: 2s ${flipInXImg}
+`;
+
 // ----- wobble Animation ------ //
 const wobbleAnimation = keyframes`${wobble}`;
 export const WobbleDiv = styled.div`
@@ -71,6 +89,12 @@ animation: 1.5s ${rotateInUpRightAnimation}
 const fadeInAnimation = keyframes`${fadeIn}`;
 export const FadeInDiv = styled.div`
 animation: 1.9s ${fadeInAnimation}
+`;
+
+// fadeIn Section
+const fadeInSection = keyframes`${fadeIn}`;
+export const FadeInSection = styled.section`
+animation: 1.9s ${fadeInSection}
 `;
 
 // longer fadeIn Animation

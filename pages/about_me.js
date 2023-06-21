@@ -1,5 +1,5 @@
 import React from "react";
-import { FlipInXSection } from "../utils/Animations";
+import { FadeInSection, BounceInRightImg, BounceInRightH5 } from "../utils/Animations";
 import Head from "next/head";
 
 function AboutMe(props) {
@@ -13,14 +13,14 @@ function AboutMe(props) {
         <link rel="canonical" href="https://www.kailebhammontree.com/about_me" />
       </Head>
         <main className="about-me-body main-bg">
-            <FlipInXSection className=" custom-card">
+            <FadeInSection className=" custom-card">
                 <h2 className="custom-card-header">
                     About Me
                 </h2>
                 <div className="custom-card-body">
                     <div className="name-container">
-                        <img className="avatar" src="/img/avatar.webp" alt="avatar of Kaileb Hammontree" />
-                        <h5 className="card-title"><span className="card-name">Kaileb Hammontree</span> | <span className="text-pink">Full-Stack Developer</span></h5>
+                        <BounceInRightImg className="avatar" src="/img/avatar.webp" alt="avatar of Kaileb Hammontree" />
+                        <BounceInRightH5 className="card-title"><span className="card-name">Kaileb Hammontree</span> | <span className="text-pink">Full-Stack Developer</span></BounceInRightH5>
                     </div>
                     <p className="card-text">
                         First of all, I want to thank you for taking the time out of your day to visit my website. We live in a society where most people turn to technology to make their lives easier. Sitting behind every application, website, gadget, or tool, there is someone who spent hours, days, months, or even years planning, developing, and debugging the very pieces of technology that we have all come to love and enjoy. My goal as a Full-Stack Web Developer is to do that for you.
@@ -42,7 +42,7 @@ function AboutMe(props) {
                         Again, thank you for being here. I am looking forward to hearing from you!
                     </p>
                 </div>
-            </FlipInXSection>
+            </FadeInSection>
         </main>
         </>
     )
