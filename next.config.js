@@ -14,11 +14,11 @@ const nextConfig = {
               // Determine the appropriate folder based on the file extension
               let folder;
               if (extension === 'webp' || extension === 'ico' || extension === 'png') {
-                folder = 'public/img';
+                folder = 'images';
               } else if (extension === 'pdf') {
-                folder = 'public/pdf';
+                folder = 'pdf';
               } else {
-                folder = 'public/videos';
+                folder = 'videos';
               }
               // Generate the new file path
               const name = `/${folder}/[name].[hash].[ext]`;
