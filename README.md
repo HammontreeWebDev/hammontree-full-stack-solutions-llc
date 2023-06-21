@@ -10,7 +10,7 @@
   <br><br>
   The link to the original project repo is https://github.com/HammontreeWebDev/portfolio-reactjs
   ## Usage
-  br><br>
+  <br><br>
   Things You Can Do:
   <br><br> 
   1. Discover who Kaileb Hammontree is on the About Me page
