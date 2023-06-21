@@ -1,9 +1,9 @@
 import React from "react";
 import { FadeInDiv } from "../utils/Animations";
-import { Icon, enableCache } from '@iconify/react';
+import { Icon, enableCache } from "@iconify/react";
 import Head from "next/head";
 
-enableCache('local');
+enableCache("local");
 
 function Socials(props) {
     return (
