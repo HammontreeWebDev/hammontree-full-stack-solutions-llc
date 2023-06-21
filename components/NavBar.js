@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { useRouter } from 'next/router';
-import { BounceInDownHeader } from '../utils/Animations';
-import Dropdown from 'react-bootstrap/Dropdown';
+import React, { useState } from "react";
+import { useRouter } from "next/router";
+import { BounceInDownHeader } from "../utils/Animations";
+import Dropdown from "react-bootstrap/Dropdown";
 
 export function NavBar(props) {
   const router = useRouter();
@@ -16,60 +16,60 @@ export function NavBar(props) {
   };
 
   return (
-    <BounceInDownHeader className='header-bg'>
+    <BounceInDownHeader className="header-bg">
       <img
-        className='nav-img'
+        className="nav-img"
         src="/img/trans-web-header.webp"
-        alt='Avatar of Kaileb with his name and text that says Full-Stack Web Development'
+        alt="Avatar of Kaileb with his name and text that says Full-Stack Web Development"
       />
-      <nav className='container-fluid custom-nav'>
+      <nav className="container-fluid custom-nav">
         <button
           className={`nav-font hvr-wobble-horizontal ${
-            highlightedButton === 'About Me' ? 'highlighted' : ''
+            highlightedButton === "About Me" ? "highlighted" : ""
           }`}
           onClick={(e) => {
             highlightNav(e);
-            handleClick('/about_me');
+            handleClick("/about_me");
           }}
         >
           About Me
         </button>
         <button
           className={`nav-font hvr-wobble-horizontal ${
-            highlightedButton === 'Portfolio' ? 'highlighted' : ''
+            highlightedButton === "Portfolio" ? "highlighted" : ""
           }`}
           onClick={(e) => {
             highlightNav(e);
-            handleClick('/portfolio');
+            handleClick("/portfolio");
           }}
         >
           Portfolio
         </button>
         <button
           className={`nav-font hvr-wobble-horizontal ${
-            highlightedButton === 'Services' ? 'highlighted' : ''
+            highlightedButton === "Services" ? "highlighted" : ""
           }`}
           onClick={(e) => {
             highlightNav(e);
-            handleClick('/services');
+            handleClick("/services");
           }}
         >
           Services
         </button>
         <Dropdown>
-          <Dropdown.Toggle id='custom-dropdown' className='hvr-wobble-horizontal'>
+          <Dropdown.Toggle id="custom-dropdown" className="hvr-wobble-horizontal">
             More
           </Dropdown.Toggle>
 
-          <Dropdown.Menu id='custom-menu'>
+          <Dropdown.Menu id="custom-menu">
             <Dropdown.Item>
               <button
                 className={`nav-font hvr-wobble-horizontal ${
-                  highlightedButton === 'Socials' ? 'highlighted' : ''
+                  highlightedButton === "Socials" ? "highlighted" : ""
                 }`}
                 onClick={(e) => {
                   highlightNav(e);
-                  handleClick('/socials');
+                  handleClick("/socials");
                 }}
               >
                 Socials
@@ -79,11 +79,11 @@ export function NavBar(props) {
             <Dropdown.Item>
               <button
                 className={`nav-font hvr-wobble-horizontal ${
-                  highlightedButton === 'Contact Form' ? 'highlighted' : ''
+                  highlightedButton === "Contact Form" ? "highlighted" : ""
                 }`}
                 onClick={(e) => {
                   highlightNav(e);
-                  handleClick('/contact');
+                  handleClick("/contact");
                 }}
               >
                 Contact Me
@@ -93,11 +93,11 @@ export function NavBar(props) {
             <Dropdown.Item>
               <button
                 className={`nav-font hvr-wobble-horizontal ${
-                  highlightedButton === 'Resume' ? 'highlighted' : ''
+                  highlightedButton === "Resume" ? "highlighted" : ""
                 }`}
                 onClick={(e) => {
                   highlightNav(e);
-                  handleClick('/resume');
+                  handleClick("/resume");
                 }}
               >
                 Resume
