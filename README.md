@@ -16,11 +16,11 @@
      <br><br>
   2. Explore Kaileb's portfolio on the Portfolio page.
      <br><br>
-     3. Check out the services that Hammontree Full-Stack Solutions LLC has to offer on the Services page.
+  3. Check out the services that Hammontree Full-Stack Solutions LLC has to offer on the Services page.
      <br><br>
-     4. Connect with Kaileb and Hammontree Full-Stack Solutions LLC via social media on the Socials page
+  4. Connect with Kaileb and Hammontree Full-Stack Solutions LLC via social media on the Socials page
      <br><br>
-     5. Fill out a general inquiry form, website interest form, and book a free consulation on the Contact Me page<br><br>5. View Kaileb's skills and download his resume on the Resume page.
+  5. Fill out a general inquiry form, website interest form, and book a free consulation on the Contact Me page<br><br>5. View Kaileb's skills and download his resume on the Resume page.
         <br><br>
         **Navigate to** https://www.kailebhammontree.com/ and **let's have a chat** after you have looked around!
   ## Questions
