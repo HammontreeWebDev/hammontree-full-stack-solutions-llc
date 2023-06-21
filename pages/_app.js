@@ -12,6 +12,7 @@ import '../styles/mobile-welcome.css';
 import '../styles/welcome.css';
 import '../styles/footer.css';
 import '../styles/aboutme.css';
+import '../styles/portfolio.css';
 
 // components
 import Layout from './Layout';
