@@ -1,0 +1,78 @@
+.skill-title {
+    color: var(--shade1);
+}
+
+.skill-item {
+    list-style: none;
+    color: var(--light-pink);
+    margin: 1%;
+}
+
+.skill-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-top: 3px solid var(--shade3);
+}
+
+.resume-card-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    color: var(--shade4);
+    margin-bottom: 0;
+    padding: 1%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.resume-card-header h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.resume-body {
+    text-align: center;
+}
+
+.resume-btn {
+    /* font-family: var(--distressed); */
+    color: var(--shade4);
+    text-decoration: none;
+
+}
+
+.resume-btn:hover {
+    color: var(--shade3);
+    cursor: pointer;
+}
+
+/* media queries after this comment: */
+@media screen and (max-width: 885px) {
+    .skill-container {
+        justify-content: space-between;
+    }
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .skill-title {
+        font-size: 100%;
+    }
+
+    .resume-card-header h2 {
+        font-size: 120%;
+    }
+
+    .skill-item {
+        font-size: 90%;
+    }
+
+    .resume-btn {
+        font-size: 120%;
+    }
+}

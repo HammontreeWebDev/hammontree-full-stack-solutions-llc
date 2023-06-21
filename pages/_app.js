@@ -16,9 +16,10 @@ import '../styles/portfolio.css';
 import '../styles/services.css';
 import '../styles/socials.css';
 import '../styles/contact.css';
+import '../styles/resume.css';
 
 // components
-import Layout from './Layout';
+import Layout from './layout';
 import { SSRProvider } from 'react-bootstrap';
 
 export default function App({ Component, pageProps }) {
