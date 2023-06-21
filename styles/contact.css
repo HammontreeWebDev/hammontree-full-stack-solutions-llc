@@ -1,0 +1,87 @@
+
+.contact-main {
+    /* font-family: var(--rubik); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150vh;
+}
+#interest-container {
+    width: 100%;
+}
+.form-card {
+    width: 70%;
+    background-color: var(--shade4);
+    border-radius: 1rem;
+    margin-top: 3%;
+}
+
+.form-card-body {
+    padding: 1%;
+}
+
+.custom-btn {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--light-pink);
+    color: var(--shade4);
+}
+
+.form-header {
+    background-color: var(--light-blue);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1%;
+    text-align: center;
+}
+
+.interest-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.consult-text{
+    font-size: 16px;
+}
+.consult-link {
+    color: var(--shade3);
+    font-size: 16px;
+    text-underline-offset: 10%;
+}
+
+#interest-iframe {
+    min-height: 100vh;
+}
+
+label {
+    color: var(--light-blue);
+}
+
+/* media queries */
+
+/* Surface Duo */
+@media screen and (max-width: 540px) {
+    
+    .form-card {
+        width: 85%;
+    }
+
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media screen and (max-width: 412px) {
+    
+    .form-card {
+        width: 95%;
+    }
+
+}
+
+/* Galaxy Fold */
+@media screen and (max-width: 280px) {
+    .form-header {
+        font-size: 120%;
+    }
+}

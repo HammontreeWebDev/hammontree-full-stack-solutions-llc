@@ -15,6 +15,7 @@ import '../styles/aboutme.css';
 import '../styles/portfolio.css';
 import '../styles/services.css';
 import '../styles/socials.css';
+import '../styles/contact.css';
 
 // components
 import Layout from './Layout';
