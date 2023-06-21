@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import mobileVideo from '../public/videos/mobile-intro.mp4';
-// import mobileThumb from './assets/img/thumbnail.png';
 import { Icon, enableCache } from '@iconify/react';
 enableCache("local");
 
@@ -16,7 +14,7 @@ const MobileWelcome = () => {
             <h1>Loading...</h1>
             <Icon className='loading-icon' icon="line-md:loading-loop"></Icon>
             </div>}
-            <video className="mobile-video" preload="auto" autoPlay={true} loop={true} muted={true} playsInline={true} src={mobileVideo} onPlay={removeLoader} onLoadedData={removeLoader} style={isLoading ? {visibility: "hidden"} : {visibility: "visible"}} />
+            <video className="mobile-video" preload="auto" autoPlay={true} loop={true} muted={true} playsInline={true} src="/videos/mobile-intro.mp4" onPlay={removeLoader} onLoadedData={removeLoader} style={isLoading ? {visibility: "hidden"} : {visibility: "visible"}} />
         </section>
     )
 }
