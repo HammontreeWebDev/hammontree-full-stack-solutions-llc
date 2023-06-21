@@ -1,6 +1,5 @@
 import React from 'react';
 import { RollInSection } from '../utils/Animations';
-import resume from '../public/pdf/Technical-Resume.pdf';
 import { Icon } from '@iconify/react';
 import Head from 'next/head';
 
@@ -18,7 +17,7 @@ function Resume(props) {
             <main className='about-me-body'>
                 <RollInSection className=' custom-card'>
                     <div className='resume-card-header'>
-                        <h2> Resume <span><a className='resume-btn hvr-skew hvr-pulse-grow' href={resume} download='Kaileb_Hammontree_Resume' target='blank'><Icon icon='material-symbols:arrow-forward-rounded' /> <Icon icon='icon-park-solid:folder-download' /></a></span> </h2>
+                        <h2> Resume <span><a className='resume-btn hvr-skew hvr-pulse-grow' href="/pdf/Technical-Resume.pdf" download='Kaileb_Hammontree_Resume' target='blank'><Icon icon='material-symbols:arrow-forward-rounded' /> <Icon icon='icon-park-solid:folder-download' /></a></span> </h2>
                     </div>
                     <div className='custom-card-body resume-body'>
                         <h5 className='skill-title'>Front-End Skills:</h5>
