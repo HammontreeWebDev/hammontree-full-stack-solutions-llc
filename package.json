@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@iconify/icons-eos-icons": "^1.2.6",
     "@iconify/react": "^4.1.0",
+    "@vercel/analytics": "^1.0.1",
     "bootstrap": "^5.2.3",
     "env-cmd": "^10.1.0",
     "eslint": "8.43.0",

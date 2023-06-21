@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react';
 
 // css libraries
 import 'hover.css';
@@ -38,6 +39,7 @@ export default function App({ Component, pageProps }) {
             </Head>
             <Layout>
                 <Component {...pageProps} />
+                <Analytics />
             </Layout>
         </SSRProvider>
     );
