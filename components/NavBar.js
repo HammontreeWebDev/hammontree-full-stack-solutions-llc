@@ -22,11 +22,21 @@ export function NavBar(props) {
         src="/img/trans-web-header.webp"
         alt="Avatar of Kaileb with his name and text that says Full-Stack Web Development"
       />
+
       <nav className="container-fluid custom-nav">
         <button
-          className={`nav-font hvr-wobble-horizontal ${
-            highlightedButton === "About Me" ? "highlighted" : ""
-          }`}
+          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Home" ? "highlighted" : ""
+            }`}
+          onClick={(e) => {
+            highlightNav(e);
+            handleClick("/");
+          }}
+        >
+          Home
+        </button>
+        <button
+          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "About Me" ? "highlighted" : ""
+            }`}
           onClick={(e) => {
             highlightNav(e);
             handleClick("/about_me");
@@ -35,9 +45,8 @@ export function NavBar(props) {
           About Me
         </button>
         <button
-          className={`nav-font hvr-wobble-horizontal ${
-            highlightedButton === "Portfolio" ? "highlighted" : ""
-          }`}
+          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Portfolio" ? "highlighted" : ""
+            }`}
           onClick={(e) => {
             highlightNav(e);
             handleClick("/portfolio");
@@ -46,9 +55,8 @@ export function NavBar(props) {
           Portfolio
         </button>
         <button
-          className={`nav-font hvr-wobble-horizontal ${
-            highlightedButton === "Services" ? "highlighted" : ""
-          }`}
+          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Services" ? "highlighted" : ""
+            }`}
           onClick={(e) => {
             highlightNav(e);
             handleClick("/services");
@@ -64,9 +72,8 @@ export function NavBar(props) {
           <Dropdown.Menu id="custom-menu">
             <Dropdown.Item>
               <button
-                className={`nav-font hvr-wobble-horizontal ${
-                  highlightedButton === "Socials" ? "highlighted" : ""
-                }`}
+                className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Socials" ? "highlighted" : ""
+                  }`}
                 onClick={(e) => {
                   highlightNav(e);
                   handleClick("/socials");
@@ -78,9 +85,8 @@ export function NavBar(props) {
 
             <Dropdown.Item>
               <button
-                className={`nav-font hvr-wobble-horizontal ${
-                  highlightedButton === "Contact Form" ? "highlighted" : ""
-                }`}
+                className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Contact Form" ? "highlighted" : ""
+                  }`}
                 onClick={(e) => {
                   highlightNav(e);
                   handleClick("/contact");
@@ -92,9 +98,8 @@ export function NavBar(props) {
 
             <Dropdown.Item>
               <button
-                className={`nav-font hvr-wobble-horizontal ${
-                  highlightedButton === "Resume" ? "highlighted" : ""
-                }`}
+                className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Resume" ? "highlighted" : ""
+                  }`}
                 onClick={(e) => {
                   highlightNav(e);
                   handleClick("/resume");
