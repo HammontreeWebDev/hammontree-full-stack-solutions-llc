@@ -7,7 +7,7 @@ const nextConfig = {
         use: {
           loader: 'file-loader',
           options: {
-            publicPath: '/_next',
+            publicPath: '/vercel/path0/.next/server/chunks/',
             name: (resourcePath, resourceQuery) => {
               // Get the file extension
               const extension = resourcePath.split('.').pop();
