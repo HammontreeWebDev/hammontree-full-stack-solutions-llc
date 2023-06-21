@@ -2,23 +2,30 @@ import React from "react";
 import Link from "next/link";
 import { Icon } from '@iconify/react';
 import { FadeInUpSection, BounceInDownH1, LongFadeInDiv } from "../utils/Animations";
+import Head from "next/head";
 
 const Services = (props) => {
     return (
         <>
+            <Head>
+                <title> Services | Hammontree Full-Stack Solutions LLC</title>
+                <meta name="description" content="Browse the services of Hammontree Full-Stack Solutions LLC. Kickstart your project today by filling out an Interest Form and booking a Free Consultation!" />
+                <meta name="keywords" content="Services, Hammontree Full-Stack Solutions LLC, Consultation, Booking, Interest Form, MERN Stack, SQL, JavaScript" />
+                <link rel="canonical" href="https://www.kailebhammontree.com/services" />
+            </Head>
             <main className="services-main">
                 <BounceInDownH1>Web Development <Icon icon="icon-park-solid:locking-web" /></BounceInDownH1>
 
                 <LongFadeInDiv>
-                <h3 className="disclaimer">Ready To Start Your Project? Fill Out An&nbsp;
-                    <span>
-                        <Link className="contact-link" href="https://app.hellobonsai.com/f/a14a29cd17402aa" target="_blank" >Interest Form</Link>
-                    </span>
-                    &nbsp;And Book A&nbsp;
-                    <span>
-                        <Link className="contact-link" href="https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation" target="_blank" >Free Consultation.</Link>
-                    </span>
-                </h3>
+                    <h3 className="disclaimer">Ready To Start Your Project? Fill Out An&nbsp;
+                        <span>
+                            <Link className="contact-link" href="https://app.hellobonsai.com/f/a14a29cd17402aa" target="_blank" >Interest Form</Link>
+                        </span>
+                        &nbsp;And Book A&nbsp;
+                        <span>
+                            <Link className="contact-link" href="https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation" target="_blank" >Free Consultation.</Link>
+                        </span>
+                    </h3>
                 </LongFadeInDiv>
 
                 <div className="sub-container">
