@@ -26,6 +26,15 @@ import { SSRProvider } from 'react-bootstrap';
 export default function App({ Component, pageProps }) {
     return (
         <SSRProvider>
+            <Head>
+                <link rel="icon" href="/img/favicon.ico" />
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Rubik&amp;family=Rubik+Dirt&amp;family=Rubik+Distressed&amp;family=Josefin+Sans&amp;display=swap"
+                    rel="stylesheet"
+                />
+            </Head>
             <Layout>
                 <Component {...pageProps} />
             </Layout>
