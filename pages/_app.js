@@ -20,7 +20,7 @@ import '../styles/contact.css';
 import '../styles/resume.css';
 
 // components
-import Layout from './layout';
+import Layout from '../components/layout';
 import { SSRProvider } from 'react-bootstrap';
 
 export default function App({ Component, pageProps }) {
