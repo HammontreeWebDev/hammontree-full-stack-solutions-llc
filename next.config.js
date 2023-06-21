@@ -14,11 +14,11 @@ const nextConfig = {
               // Determine the appropriate folder based on the file extension
               let folder;
               if (extension === 'webp' || extension === 'ico' || extension === 'png') {
-                folder = 'static/images';
+                folder = '/vercel/path0/.next/server/chunks/static/images';
               } else if (extension === 'pdf') {
-                folder = 'static/pdf';
+                folder = '/vercel/path0/.next/server/chunks/static/pdf';
               } else {
-                folder = 'static/videos';
+                folder = '/vercel/path0/.next/server/chunks/static/videos';
               }
               // Generate the new file path
               const name = `/${folder}/[name].[hash].[ext]`;
