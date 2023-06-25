@@ -37,7 +37,12 @@ body {
     font-family: var(--body-font);
     min-height: 100vh;
     overflow-x: hidden;
+    scrollbar-width: none;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+  }
 
 .text-pink {
     color: var(--light-pink);
