@@ -139,14 +139,23 @@ function Contact(props) {
                     <div className="form-header">
                         <h2>Start Your Project</h2>
                         <BounceInRightP className='consult-text'>
-                            Book Now For A&nbsp;
-                            <a id="consult" href='https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation' target='_blank' rel="noopener noreferrer" className='consult-link'>Free Consultation</a>
+                            Click&nbsp;
+                            <a id="consult" href='https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation' target='_blank' rel="noopener noreferrer" className='consult-link'>Here</a>
+                            &nbsp;To Book A Free Consultation!
+                        </BounceInRightP>
+                        <BounceInRightP className='consult-text'>
+                            Click&nbsp;
+                            <a href='https://app.hellobonsai.com/f/a14a29cd17402aa' target='_blank' rel='noopener noreferrer' className='consult-link'>Here</a>
+                            &nbsp;To Fill Out The Questionnaire Directly On Bonsai!
                         </BounceInRightP>
                     </div>
                     {/* <button className='custom-btn'>Get Started</button> */}
-                    <iframe title='interest-form' id='interest-iframe' src="https://app.hellobonsai.com/f/a14a29cd17402aa?embed=true" style={{
-                        border: 'none',
-                    }} allow='fullscreen'></iframe>
+                    <iframe src="https://app.hellobonsai.com/f/a14a29cd17402aa?embed=true" frameborder="0" width="100%" height="100%" style={
+                        {
+                            border: "none",
+                            minHeight: "3500px"
+                        }
+                    }></iframe>
                 </FadeInSection>
             </main>
         </>
