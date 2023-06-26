@@ -106,23 +106,6 @@ function Contact(props) {
     const isEmailValid = checkEmail ? <span className='text-danger'> * please enter a valid email address</span> : null;
     const isMessageRequired = messageRequired ? <span className='text-danger'> * required</span> : null;
 
-
-    useEffect(() => {
-        const iframe = document.getElementById("interest-iframe");
-
-        const resizeIframe = () => {
-            iframe.style.height = `${iframe.contentWindow.document.body.scrollHeight}px`
-        };
-
-        iframe.addEventListener('load', resizeIframe);
-        window.addEventListener('resize', resizeIframe);
-
-        return () => {
-            iframe.removeEventListener('load', resizeIframe);
-            window.removeEventListener('resize', resizeIframe);
-        };
-    }, []);
-
     return (
         <>
             <Head>

@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/img/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Rubik&amp;family=Rubik+Dirt&amp;family=Rubik+Distressed&amp;family=Josefin+Sans&amp;display=swap"
                     rel="stylesheet"
