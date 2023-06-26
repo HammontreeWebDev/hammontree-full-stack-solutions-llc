@@ -1,7 +1,7 @@
 :root {
 
     /* I used an online color picker to grab the color of the sky and then adobe color wheel to come up with a shades color pallete based off the sky color as well as a few complementary colors! */
-    
+
     /* color scheme: */
     --light-blue: #C9EAFF;
     --light-pink: #FFE3E3;
@@ -31,12 +31,22 @@ body {
     background-image: url("/img/background.webp");
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     /* fixed background for continuity */
     background-attachment: fixed;
     font-family: var(--body-font);
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: var(--trans-shade4);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--light-blue);
+    border-radius: 300rem;
 }
 
 .text-pink {
