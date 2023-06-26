@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FadeInSection, BounceInRightP, BounceInRightLabel } from '../utils/Animations'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
@@ -106,6 +106,23 @@ function Contact(props) {
     const isEmailValid = checkEmail ? <span className='text-danger'> * please enter a valid email address</span> : null;
     const isMessageRequired = messageRequired ? <span className='text-danger'> * required</span> : null;
 
+
+    useEffect(() => {
+        const iframe = document.getElementById("interest-iframe");
+
+        const resizeIframe = () => {
+            iframe.style.height = `${iframe.contentWindow.document.body.scrollHeight}px`
+        };
+
+        iframe.addEventListener('load', resizeIframe);
+        window.addEventListener('resize', resizeIframe);
+
+        return () => {
+            iframe.removeEventListener('load', resizeIframe);
+            window.removeEventListener('resize', resizeIframe);
+        };
+    }, []);
+
     return (
         <>
             <Head>
@@ -137,14 +154,16 @@ function Contact(props) {
 
                 <FadeInSection className='form-card interest-form'>
                     <div className="form-header">
-                    <h2>Start Your Project</h2>
+                        <h2>Start Your Project</h2>
                         <BounceInRightP className='consult-text'>
                             Book Now For A&nbsp;
                             <a id="consult" href='https://app.hellobonsai.com/s/kaileb-hammontree-1/consultation' target='_blank' rel="noopener noreferrer" className='consult-link'>Free Consultation</a>
                         </BounceInRightP>
                     </div>
                     {/* <button className='custom-btn'>Get Started</button> */}
-                    <iframe title='interest-form' id='interest-iframe' src="https://app.hellobonsai.com/f/a14a29cd17402aa?embed=true" width="100%" height="100%" style={{ border: 'none' }}></iframe>
+                    <iframe title='interest-form' id='interest-iframe' src="https://app.hellobonsai.com/f/a14a29cd17402aa?embed=true" style={{
+                        border: 'none',
+                    }} allow='fullscreen'></iframe>
                 </FadeInSection>
             </main>
         </>
