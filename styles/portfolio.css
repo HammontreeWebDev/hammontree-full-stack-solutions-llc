@@ -42,6 +42,7 @@
 
 .project-title {
     font-family: var(--distressed);
+    text-align: center;
 }
 
 .project-content {
