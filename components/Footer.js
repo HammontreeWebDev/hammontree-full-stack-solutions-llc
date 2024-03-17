@@ -14,7 +14,7 @@ export default function Footer() {
                 <a className='hvr-icon-spin icon' href="https://www.facebook.com/profile.php?id=100093003297638" target="_blank" rel="noopener noreferrer"><Icon className="hvr-icon" icon="fa6-brands:square-facebook" /></a>
             </section>
             <section className="footer-row">
-            <p id="copyright">Copyright © 2023. Hammontree Full-Stack Solutions LLC.</p>
+            <p id="copyright">Copyright © 2023 - 2024. Hammontree Full-Stack Solutions LLC.</p>
             </section>
         </footer>
 
