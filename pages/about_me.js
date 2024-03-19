@@ -15,7 +15,7 @@ function AboutMe(props) {
         <main className="about-me-body main-bg">
             <FadeInSection className=" custom-card">
                 <h2 className="custom-card-header">
-                    About Me
+                    Biography
                 </h2>
                 <div className="custom-card-body">
                     <div className="name-container">
