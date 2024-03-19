@@ -23,7 +23,7 @@ const Portfolio = (props) => {
         <link rel="canonical" href="https://www.kailebhammontree.com/portfolio" />
       </Head>
 
-      <PageTitle content={'Portfolio'} icon={'bytesize:portfolio'}/>
+      <PageTitle content={'Portfolio'} icon={'emojione-v1:blue-book'}/>
 
       <main className='portfolio-body'>
         {/* J-Boo Customs Website / Jesse Ryder Brown Foundation, Inc.*/}
