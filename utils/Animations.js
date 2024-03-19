@@ -103,6 +103,12 @@ export const FadeInDiv = styled.div`
 animation: 1.9s ${fadeInAnimation}
 `;
 
+// fade in header
+const fadeInH1 = keyframes`${fadeIn}`;
+export const FadeInH1 = styled.h1`
+animation: 2.5s ${fadeInH1}
+`
+
 // fadeIn Section
 const fadeInSection = keyframes`${fadeIn}`;
 export const FadeInSection = styled.section`
