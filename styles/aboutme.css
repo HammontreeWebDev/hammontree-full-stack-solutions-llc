@@ -54,6 +54,29 @@
     color: var(--light-blue);
 }
 /* media queries */
+/* 540px - surface duo */
+@media screen and (max-width: 540px) {
+    .custom-card {
+        min-width: 100vw;
+        border-radius: 0rem;
+        margin: 0%;
+    }
+
+    .custom-card-header {
+        padding: 1%;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+
+    .custom-card-body {
+        background-color: var(--shade4);
+        padding: 1%;
+        border-bottom-left-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    
+    }
+
+}
 /* 711 px */
 @media screen and (max-width: 711px) {
     
