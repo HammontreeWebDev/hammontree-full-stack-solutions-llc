@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import CertificateCard from "../components/CertificateCard";
-import { PageTitle } from "../components/pageTitle";
+import PageTitle from "../components/pageTitle";
 
 function Certifications() {
 

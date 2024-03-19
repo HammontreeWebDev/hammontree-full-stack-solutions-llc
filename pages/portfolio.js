@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import Swal from 'sweetalert2';
 import Head from "next/head";
-import { PageTitle } from "../components/pageTitle";
+import PageTitle from "../components/pageTitle";
 
 const Portfolio = (props) => {
 

@@ -4,7 +4,7 @@ import { Icon, enableCache } from "@iconify/react";
 
 enableCache("local");
 
-export function PageTitle(props) {
+function PageTitle(props) {
 
     return(
         <div className="page-title">
@@ -15,3 +15,4 @@ export function PageTitle(props) {
     )
 }
 
+export default PageTitle;
