@@ -13,8 +13,9 @@ function Certifications() {
                 <meta name="keywords" content="certifications, education, Kaileb Hammontree, University Of Central Florida, Web Developer, react, front-end, full-stack, back-end" />
                 <link rel="canonical" href="https://www.kailebhammontree.com/certifications" />
             </Head>
-            {/* !insert title */}
-            <PageTitle content={'Certifications'} icon={'icon-park-solid:locking-web'}/>
+
+            <PageTitle content={'Certifications'} icon={'iconamoon:certificate-badge-fill'}/>
+
             <main className="portfolio-body">
 
                 {/* UCF Coding Boot Camp*/}
