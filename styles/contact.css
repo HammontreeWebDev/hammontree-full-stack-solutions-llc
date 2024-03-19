@@ -55,8 +55,8 @@ label {
 
 /* media queries */
 
-/* Surface Duo */
-@media screen and (max-width: 540px) {
+/* 711 px */
+@media screen and (max-width: 711px) {
     
     .form-card {
         width: 85%;

@@ -15,9 +15,9 @@ footer {
     align-items: center;
 }
 
-/* .footer-redirects{
+.footer-redirects{
     width: 35vw;
-} */
+}
 
 .footer-link{
     padding: 3%;
@@ -57,10 +57,21 @@ footer {
     }
 }
 
-/* Surface Duo */
-@media screen and (max-width: 540px) {
+/* 711 px */
+@media screen and (max-width: 711px) {
     
     .icon {
     font-size: 2.5rem;
+    }
+
+    .footer-redirects{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer-redirects{
+        width: 100vw;
+        flex-flow: column wrap;
     }
 }

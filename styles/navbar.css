@@ -75,8 +75,8 @@
    }
 }
 
-/* Surface Duo */
-@media screen and (max-width: 540px) {
+/* 711 px */
+@media screen and (max-width: 711px) {
     .header-bg {
         flex-flow: column wrap;
         align-items: center;

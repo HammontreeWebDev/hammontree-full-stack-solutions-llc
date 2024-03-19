@@ -54,8 +54,8 @@
     color: var(--light-blue);
 }
 /* media queries */
-/* Surface Duo */
-@media screen and (max-width: 540px) {
+/* 711 px */
+@media screen and (max-width: 711px) {
     
     .custom-card {
         width: 85%;
