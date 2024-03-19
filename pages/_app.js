@@ -20,6 +20,7 @@ import '../styles/socials.css';
 import '../styles/contact.css';
 import '../styles/resume.css';
 import '../styles/certifications.css';
+import '../styles/page-title.css';
 
 // components
 import Layout from '../components/Layout';
