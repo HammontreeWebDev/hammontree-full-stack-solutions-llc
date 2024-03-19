@@ -55,6 +55,24 @@ label {
 
 /* media queries */
 
+@media screen and (max-width: 540px) {
+    .form-card {
+        min-width: 100vw;
+        border-radius: 0rem;
+        margin-top: 1%;
+    }
+
+    .form-header {
+        padding: 1%;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+
+    .interest-form {
+        margin-bottom: 1%;
+    }
+}
+
 /* 711 px */
 @media screen and (max-width: 711px) {
     
