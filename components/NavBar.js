@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { BounceInDownHeader } from "../utils/Animations";
 import Dropdown from "react-bootstrap/Dropdown";
+import DropdownItem from "react-bootstrap/esm/DropdownItem";
 
 export function NavBar(props) {
   const router = useRouter();
@@ -24,6 +25,7 @@ export function NavBar(props) {
       />
 
       <nav className="container-fluid custom-nav">
+       {/* Home Button */}
         <button
           className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Home" ? "highlighted" : ""
             }`}
@@ -34,7 +36,16 @@ export function NavBar(props) {
         >
           Home
         </button>
-        <button
+        {/* About Me Dropdown */}
+        <Dropdown>
+          <Dropdown.Toggle id="custom-dropdown" className="hvr-wobble-horizontal">
+            About Me
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu id="custom-menu">
+
+            <DropdownItem>
+            <button
           className={`nav-font hvr-wobble-horizontal ${highlightedButton === "About Me" ? "highlighted" : ""
             }`}
           onClick={(e) => {
@@ -42,8 +53,13 @@ export function NavBar(props) {
             handleClick("/about_me");
           }}
         >
-          About Me
+          Biography
         </button>
+            </DropdownItem>
+
+          </Dropdown.Menu>
+        </Dropdown>
+        {/* Portfolio Button */}
         <button
           className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Portfolio" ? "highlighted" : ""
             }`}
@@ -54,6 +70,7 @@ export function NavBar(props) {
         >
           Portfolio
         </button>
+        {/* Services Button */}
         <button
           className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Services" ? "highlighted" : ""
             }`}
@@ -64,6 +81,7 @@ export function NavBar(props) {
         >
           Services
         </button>
+        {/* More Dropdown */}
         <Dropdown>
           <Dropdown.Toggle id="custom-dropdown" className="hvr-wobble-horizontal">
             More
