@@ -14,7 +14,7 @@ function CertificateCard(props) {
                 <p> <small className="certificate-disclaimer">Click the badge below to verify the authenticity of this certificate.</small></p>
                 <div className="project-icon-container">
 
-                    <a className="project-links" href={props.verification} target="_blank" rel="noopener noreferrer">
+                    <a className="project-links verification-badge" href={props.verification} target="_blank" rel="noopener noreferrer">
                         <Icon icon="material-symbols:verified-user-rounded" />
                     </a>
 

@@ -14,4 +14,18 @@
     .certificate-disclaimer{
         font-size: 80%;
     }
+
+    .verification-badge{
+        font-size: 3rem;
+    }
+}
+
+/* 405 px */
+
+@media screen and (max-width: 405px) {
+    .certificate-disclaimer{
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+    }
 }
