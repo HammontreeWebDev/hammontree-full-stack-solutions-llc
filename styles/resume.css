@@ -52,6 +52,15 @@
 }
 
 /* media queries after this comment: */
+/* 540px */
+
+@media screen and (max-width: 540px){
+    .resume-card-header {
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+}
+
 @media screen and (max-width: 885px) {
     .skill-container {
         justify-content: space-between;
