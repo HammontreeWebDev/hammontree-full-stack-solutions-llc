@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
-import { FadeInUpSection, BounceInDownH1, LongFadeInDiv } from "../utils/Animations";
+import { FadeInUpSection, LongFadeInDiv } from "../utils/Animations";
 import Head from "next/head";
+import { PageTitle } from "../components/pageTitle";
 
 const Services = (props) => {
     return (
@@ -13,9 +14,10 @@ const Services = (props) => {
                 <meta name="keywords" content="Services, Hammontree Full-Stack Solutions LLC, Consultation, Booking, Interest Form, MERN Stack, SQL, JavaScript" />
                 <link rel="canonical" href="https://www.kailebhammontree.com/services" />
             </Head>
-            <main className="services-main">
-                <BounceInDownH1>Web Development <Icon icon="icon-park-solid:locking-web" /></BounceInDownH1>
 
+            <PageTitle content={'Web Development'} icon={'noto:laptop'} />
+
+            <main className="services-main">
                 <LongFadeInDiv>
                     <h3 className="disclaimer">Ready To Start Your Project? Fill Out An&nbsp;
                         <span>

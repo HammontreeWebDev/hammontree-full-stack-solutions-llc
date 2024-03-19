@@ -17,7 +17,7 @@ function Resume(props) {
             <main className='about-me-body'>
                 <FadeInSection className=' custom-card'>
                     <div className='resume-card-header'>
-                        <h2> Resume <span><a className='resume-btn hvr-skew hvr-pulse-grow' href="/pdf/Technical-Resume.pdf" download='Kaileb_Hammontree_Resume' target='blank'><Icon icon='material-symbols:arrow-forward-rounded' /> <Icon icon='icon-park-solid:folder-download' /></a></span> </h2>
+                        <h2> Download <span><a className='resume-btn hvr-skew hvr-pulse-grow' href="/pdf/Technical-Resume.pdf" download='Kaileb_Hammontree_Resume' target='blank'><Icon icon='material-symbols:arrow-forward-rounded' /> <Icon icon='icon-park-solid:folder-download' /></a></span> </h2>
                     </div>
                     <div className='custom-card-body resume-body'>
                         <FadeInUpH5 className='skill-title'>Front-End Skills:</FadeInUpH5>
