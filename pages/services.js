@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { FadeInUpSection, LongFadeInDiv } from "../utils/Animations";
 import Head from "next/head";
-import PageTitle from "../components/pageTitle";
+import PageTitle from "../components/PageTitle";
 
 const Services = (props) => {
     return (

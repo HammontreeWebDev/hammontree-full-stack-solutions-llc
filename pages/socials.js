@@ -2,7 +2,7 @@ import React from "react";
 import { FadeInDiv } from "../utils/Animations";
 import { Icon, enableCache } from "@iconify/react";
 import Head from "next/head";
-import PageTitle from "../components/pageTitle";
+import PageTitle from "../components/PageTitle";
 
 enableCache("local");
 
