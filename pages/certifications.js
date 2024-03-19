@@ -16,7 +16,7 @@ function Certifications() {
       <main className="portfolio-body">
 
          {/* UCF Coding Boot Camp*/}
-         <CertificateCard src={"/img/coding.webp"} alt={'UCF Full-Stack Coding Boot Camp Certificate'} appTitle={'UCF Coding Boot Camp'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+         <CertificateCard src={"/img/coding.webp"} verification={'https://badgr.com/public/assertions/ewkha2NyQ8-IAo-788fTUA'} alt={'UCF Full-Stack Coding Boot Camp Certificate'} appTitle={'UCF Coding Boot Camp'} content={'A comprehensive full-stack coding boot camp'} />
 
           {/* UCF Cyber Defense Professional Certificate*/}
         <CertificateCard src={"/img/cyber.webp"} alt={'UCF Cyber Defense Professional Certificate'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />

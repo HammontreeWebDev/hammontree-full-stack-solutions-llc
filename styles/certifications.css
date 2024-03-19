@@ -1,0 +1,6 @@
+/* !combining the css for certifications page & certificate card component */
+
+.custom-figure-content:hover .certificate-disclaimer{
+    color: red;
+    font-style: italic;
+}
