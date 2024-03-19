@@ -135,6 +135,19 @@ export function NavBar(props) {
           Portfolio
         </button>
             </Dropdown.Item>
+
+            <Dropdown.Item>
+              <button
+                className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Certifications" ? "highlighted" : ""
+                  }`}
+                onClick={(e) => {
+                  highlightNav(e);
+                  handleClick("/certifications");
+                }}
+              >
+                Certifications
+              </button>
+            </Dropdown.Item>
             
           </Dropdown.Menu>
         </Dropdown>
