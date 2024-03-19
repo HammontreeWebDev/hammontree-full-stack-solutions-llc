@@ -19,6 +19,7 @@ import '../styles/services.css';
 import '../styles/socials.css';
 import '../styles/contact.css';
 import '../styles/resume.css';
+import '../styles/certifications.css';
 
 // components
 import Layout from '../components/Layout';
