@@ -15,6 +15,20 @@ footer {
     align-items: center;
 }
 
+/* .footer-redirects{
+    width: 35vw;
+} */
+
+.footer-link{
+    padding: 3%;
+    text-decoration: none;
+    color: var(--light-pink);
+}
+
+.footer-link:hover{
+    color: var(--light-blue);
+}
+
 #copyright {
     color: var(--light-blue);
     text-align: center;
