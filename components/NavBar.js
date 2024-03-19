@@ -45,7 +45,7 @@ export function NavBar(props) {
 
             <Dropdown.Item>
             <button
-          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "About Me" ? "highlighted" : ""
+          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Biography" ? "highlighted" : ""
             }`}
           onClick={(e) => {
             highlightNav(e);
@@ -69,24 +69,12 @@ export function NavBar(props) {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        {/* Portfolio Button */}
+        {/* How Can I Help Dropdown? */}
         <Dropdown>
           <Dropdown.Toggle id="custom-dropdown" className="hvr-wobble-horizontal">
             How Can I Help?
           </Dropdown.Toggle>
           <Dropdown.Menu id="custom-menu">
-            <Dropdown.Item>
-            <button
-          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Portfolio" ? "highlighted" : ""
-            }`}
-          onClick={(e) => {
-            highlightNav(e);
-            handleClick("/portfolio");
-          }}
-        >
-          Portfolio
-        </button>
-            </Dropdown.Item>
 
             <Dropdown.Item>
             <button
@@ -115,7 +103,7 @@ export function NavBar(props) {
           </Dropdown.Menu>
         </Dropdown>
 
-        {/* More Dropdown */}
+        {/* Resume Dropdown */}
         <Dropdown>
           <Dropdown.Toggle id="custom-dropdown" className="hvr-wobble-horizontal">
             Resume
@@ -124,7 +112,7 @@ export function NavBar(props) {
           <Dropdown.Menu id="custom-menu">
             <Dropdown.Item>
               <button
-                className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Resume" ? "highlighted" : ""
+                className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Download" ? "highlighted" : ""
                   }`}
                 onClick={(e) => {
                   highlightNav(e);
@@ -134,6 +122,20 @@ export function NavBar(props) {
                 Download
               </button>
             </Dropdown.Item>
+
+            <Dropdown.Item>
+            <button
+          className={`nav-font hvr-wobble-horizontal ${highlightedButton === "Portfolio" ? "highlighted" : ""
+            }`}
+          onClick={(e) => {
+            highlightNav(e);
+            handleClick("/portfolio");
+          }}
+        >
+          Portfolio
+        </button>
+            </Dropdown.Item>
+            
           </Dropdown.Menu>
         </Dropdown>
       </nav>
