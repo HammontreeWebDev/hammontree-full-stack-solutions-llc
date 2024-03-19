@@ -2,6 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import Swal from 'sweetalert2';
 import Head from "next/head";
+import { PageTitle } from "../components/pageTitle";
 
 const Portfolio = (props) => {
 
@@ -21,6 +22,9 @@ const Portfolio = (props) => {
         <meta name="keywords" content="Portfolio, Web Development, Full-Stack Development, Kaileb Hammontree" />
         <link rel="canonical" href="https://www.kailebhammontree.com/portfolio" />
       </Head>
+
+      <PageTitle content={'Portfolio'} icon={'bytesize:portfolio'}/>
+
       <main className='portfolio-body'>
         {/* J-Boo Customs Website / Jesse Ryder Brown Foundation, Inc.*/}
         <Project src={"/img/jboocustoms.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
