@@ -16,16 +16,16 @@ function Certifications() {
       <main className="portfolio-body">
 
          {/* UCF Coding Boot Camp*/}
-         <CertificateCard src={"/img/coding.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'UCF Coding Boot Camp'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+         <CertificateCard src={"/img/coding.webp"} alt={'UCF Full-Stack Coding Boot Camp Certificate'} appTitle={'UCF Coding Boot Camp'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
           {/* UCF Cyber Defense Professional Certificate*/}
-        <CertificateCard src={"/img/cyber.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+        <CertificateCard src={"/img/cyber.webp"} alt={'UCF Cyber Defense Professional Certificate'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
          {/* Hacker Rank CSS Skill Verification*/}
-         <CertificateCard src={"/img/CSS.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+         <CertificateCard src={"/img/CSS.webp"} alt={'Hacker Rank CSS Skill Verification'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
           {/* Hacker Rank Front End React Role Verification*/}
-        <CertificateCard src={"/img/react.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+        <CertificateCard src={"/img/react.webp"} alt={'Hacker Rank Front End Developer for React Role Verification'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
        </main>
         </>
