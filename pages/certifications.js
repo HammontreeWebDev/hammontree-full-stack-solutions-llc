@@ -22,7 +22,7 @@ function Certifications() {
         <CertificateCard src={"/img/cyber.webp"} verification={'https://badgr.com/public/assertions/Rxyg7wKwTgWLC07_shNy6A'} alt={'UCF Cyber Defense Professional Certificate'} appTitle={'UCF Cyber Defense Professional Certificate'} content={'A cyber security program that covered a wide range of topics including ethical hacking, server administration, and network security.'} />
 
          {/* Hacker Rank CSS Skill Verification*/}
-         <CertificateCard src={"/img/CSS.webp"} alt={'Hacker Rank CSS Skill Verification'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+         <CertificateCard src={"/img/CSS.webp"} verification={'https://www.hackerrank.com/certificates/c7a702eeeac3'} alt={'Hacker Rank CSS Skill Verification'} appTitle={'Hacker Rank CSS Skill Verification'} content={'Completed a hands-on skill verification test through Hacker Rank.'} />
 
           {/* Hacker Rank Front End React Role Verification*/}
         <CertificateCard src={"/img/react.webp"} alt={'Hacker Rank Front End Developer for React Role Verification'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
