@@ -13,14 +13,10 @@ function CertificateCard(props) {
                 <p className="project-content"> <strong>Description: </strong><span className="alt-color">{props.content}</span></p>
                 <div className="project-icon-container">
 
-                    <a className="project-links" href={props.repository} target="_blank" rel="noopener noreferrer" onClick={props.click}>
-                        <Icon icon="uim:github-alt" />
+                    <a className="project-links" href={props.verification} target="_blank" rel="noopener noreferrer">
+                        <Icon icon="material-symbols:verified-user-rounded" />
                     </a>
 
-                    <a className="project-links" href={props.deployment} target="_blank" rel="noopener noreferrer">
-                        <Icon icon="eos-icons:application-instance" />
-                    </a>
-                    
                 </div>
             </div>
         </ZoomInRightDiv>

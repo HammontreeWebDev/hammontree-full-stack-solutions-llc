@@ -16,16 +16,16 @@ function Certifications() {
       <main className="portfolio-body">
 
          {/* UCF Coding Boot Camp*/}
-         <CertificateCard src={"/img/jboocustoms.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'UCF Coding Boot Camp'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+         <CertificateCard src={"/img/coding.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'UCF Coding Boot Camp'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
           {/* UCF Cyber Defense Professional Certificate*/}
-        <CertificateCard src={"/img/jboocustoms.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+        <CertificateCard src={"/img/cyber.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
          {/* Hacker Rank CSS Skill Verification*/}
-         <CertificateCard src={"/img/jboocustoms.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+         <CertificateCard src={"/img/CSS.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
           {/* Hacker Rank Front End React Role Verification*/}
-        <CertificateCard src={"/img/jboocustoms.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+        <CertificateCard src={"/img/react.webp"} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
 
        </main>
         </>
