@@ -16,7 +16,7 @@ export default function Footer() {
 
             </section>
 
-            <section className="footer-row footer-redirects">
+            <section className="footer-redirects">
                 <Link className="footer-link" href={'/'}>Home</Link>
                 <Link className="footer-link" href={'/about_me'}>Biography</Link>
                 <Link className="footer-link" href={'/socials'}>Socials</Link>
@@ -24,6 +24,7 @@ export default function Footer() {
                 <Link className="footer-link" href={'/contact'}>Contact</Link>
                 <Link className="footer-link" href={'/resume'}>Download Resume</Link>
                 <Link className="footer-link" href={'/portfolio'}>Portfolio</Link>
+                <Link className="footer-link" href={'/certifications'}>Certifications</Link>
             </section>
             
             <section className="footer-row">

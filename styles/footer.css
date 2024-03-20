@@ -17,6 +17,10 @@ footer {
 
 .footer-redirects{
     width: 35vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-link{
@@ -72,6 +76,9 @@ footer {
 @media screen and (max-width: 540px) {
     .footer-redirects{
         width: 100vw;
-        flex-flow: column wrap;
+    }
+
+    .footer-link{
+        width: fit-content;
     }
 }
