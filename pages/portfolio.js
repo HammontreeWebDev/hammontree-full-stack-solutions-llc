@@ -1,8 +1,7 @@
-import React from "react";
+import React, { lazy, Suspense, useEffect, useRef } from "react";
 import Project from "../components/Project";
 import Swal from 'sweetalert2';
 import Head from "next/head";
-import PageTitle from "../components/PageTitle";
 
 const Portfolio = (props) => {
 
@@ -22,8 +21,6 @@ const Portfolio = (props) => {
         <meta name="keywords" content="Portfolio, Web Development, Full-Stack Development, Kaileb Hammontree" />
         <link rel="canonical" href="https://www.kailebhammontree.com/portfolio" />
       </Head>
-
-      {/* <PageTitle content={'Portfolio'} icon={'emojione-v1:blue-book'}/> */}
 
       <main className='portfolio-body'>
 
