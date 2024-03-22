@@ -13,7 +13,7 @@ function Project(props) {
         const options = {
             root: null,
             rootmargin: "Opx",
-            threshold: 0.2
+            threshold: 0.5
         };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -45,18 +45,11 @@ function Project(props) {
             }}
 
         >
-
-            <div ref={fadeInRef}>
-                {isVisible && (
-                    <FadeInDiv className="project-row">
+                    <FadeInDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
                         <img src={props.src} className="custom-figure-img" alt={props.alt} />
                     </FadeInDiv>
-                )}
-            </div>
 
-            <div ref={fadeInRef}>
-                {isVisible && (
-                    <FadeInDiv className="project-row content-container">
+                    <FadeInDiv className={`project-row content-container ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
                         <h1 className="project-title">{props.appTitle}</h1>
                         <p className="project-content"> <strong>Built With: </strong><span className="alt-color">{props.content}</span></p>
                         <div className="project-icon-container">
@@ -64,8 +57,7 @@ function Project(props) {
                             <a className="project-links" href={props.deployment} target="_blank" rel="noopener noreferrer"><Icon icon="eos-icons:application-instance" /></a>
                         </div>
                     </FadeInDiv>
-                )}
-            </div>
+             
 
         </div>
     )
