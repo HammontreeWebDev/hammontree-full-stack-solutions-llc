@@ -2,7 +2,6 @@ import React from "react";
 import { FadeInDiv } from "../utils/Animations";
 import { Icon, enableCache } from "@iconify/react";
 import Head from "next/head";
-import PageTitle from "../components/PageTitle";
 
 enableCache("local");
 
@@ -15,8 +14,6 @@ function Socials(props) {
                 <meta name="keywords" content="Socials, Hammontree Full-Stack Solutions LLC, Web Development, GitHub, LinkedIn, FaceBook" />
                 <link rel="canonical" href="https://www.kailebhammontree.com/socials" />
             </Head>
-
-            <PageTitle content={'Socials'} icon={'fluent-emoji:computer-mouse'} />
 
             <main className="socials-main">
                 <section className="social-wrapper">

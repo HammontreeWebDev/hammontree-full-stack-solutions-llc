@@ -33,6 +33,7 @@ export default function App({ Component, pageProps }) {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/img/favicon.ico" />
+                <link rel="preload" href="/img/background.webp" as="image"></link>
             </Head>
             <Layout>
                 <Component {...pageProps} />
