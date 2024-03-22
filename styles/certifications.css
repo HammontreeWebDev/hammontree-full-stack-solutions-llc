@@ -1,12 +1,8 @@
 /* !combining the css for certifications page & certificate card component */
 
-.custom-figure-content:hover .certificate-disclaimer{
-    color: var(--light-pink);
-    font-style: italic;
-}
-
 .certificate-disclaimer{
     text-align: center;
+    color: var(--light-pink);
 }
 
 /* 711 px */

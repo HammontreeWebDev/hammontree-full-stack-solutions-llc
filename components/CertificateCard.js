@@ -7,8 +7,11 @@ enableCache("local");
 function CertificateCard(props) {
     return (
         <ZoomInRightDiv className="custom-figure">
-            <img src={props.src} className="custom-figure-img" alt={props.alt} />
-            <div className="custom-figure-content">
+            <div className="project-row">
+                <img src={props.src} className="custom-figure-img" alt={props.alt} />
+            </div>
+
+            <div className="project-row content-container">
                 <h1 className="project-title">{props.appTitle}</h1>
 
                 <p> <small className="certificate-disclaimer">Click the badge below to verify the authenticity of this certificate.</small></p>
