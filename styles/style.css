@@ -27,7 +27,6 @@
 
 body {
     /* set background image for entire body that will be there regardless of what component is shown */
-    /* This picture was taken on a family trip in TN! */
     background-image: url("/img/background.webp");
     background-size: cover;
     background-position: 50% 50%;
@@ -57,4 +56,3 @@ main {
     background-color: rgba(0, 0, 0, .75);
 }
 
-/* TODO: Decide whether you want to change the styled components back to divs so animation doesnt take away bg color */

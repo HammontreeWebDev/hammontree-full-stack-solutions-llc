@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { BounceInDownHeader } from "../utils/Animations";
 import Dropdown from "react-bootstrap/Dropdown";
+import Image from "next/image";
 
 export function NavBar(props) {
   const router = useRouter();
@@ -17,10 +18,14 @@ export function NavBar(props) {
 
   return (
     <BounceInDownHeader className="header-bg">
+
+      {/* SVG Background */}
+      <Image className="svg-bg" src="/img/navbar.svg" width={1920} height={350} priority={true}></Image>
+
       <img
         className="nav-img"
         src="/img/trans-web-header.webp"
-        alt="Avatar of Kaileb with his name and text that says Full-Stack Web Development"
+        alt="Avatar of Kaileb with his name and text that says Full-Stack Web Development" 
       />
 
       <nav className="container-fluid custom-nav">
