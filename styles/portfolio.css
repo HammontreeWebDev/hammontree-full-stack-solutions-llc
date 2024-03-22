@@ -66,13 +66,26 @@ color: var(--light-blue);
     color: var(--light-pink);
 }
 
+/* 1200 px */
+
+@media screen and (max-width: 1200px){
+    .custom-figure {
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-row {
+        width: 100%;
+    }
+}
 /* 711 px */
 @media screen and (max-width: 711px) {
 
-    .custom-figure {
+    /* .custom-figure {
         width: 400px;
         height: 200px;
-    }
+    } */
     .project-title {
         font-size: 130%;
     }
