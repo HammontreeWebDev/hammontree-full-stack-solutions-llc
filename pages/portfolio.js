@@ -26,19 +26,33 @@ const Portfolio = (props) => {
       {/* <PageTitle content={'Portfolio'} icon={'emojione-v1:blue-book'}/> */}
 
       <main className='portfolio-body'>
-        {/* J-Boo Customs Website / Jesse Ryder Brown Foundation, Inc.*/}
-        <Project src={"/img/jboo-mockup.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} photo_icon={'/img/palm-tree.webp'}/>
 
-        {/* palm-tree.webp: Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/scenic-view-of-tropical-beach-4870612/ */}
+        {/* J-Boo Customs Website / Jesse Ryder Brown Foundation, Inc.*/}
+        <Project src={"/img/jboo-mockup.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} photo_icon={'img/motocross.webp'} />
+
+        {/* motocross.webp Photo by cottonbro studio: https://www.pexels.com/photo/rider-checking-his-dirt-bike-5803326/ */}
 
         {/* BroFit Personal Training */}
-        <Project src={"/img/Brofit.webp"} deployment={'https://www.reesewilder.com/'} click={privateAlert} alt={'screenshot of BroFit Personal Training website'} appTitle={'BroFit Personal Training'} content={'HTML | BootStrap | CSS | JavaScript'} />
+        <Project src={"/img/Brofit.webp"} deployment={'https://www.reesewilder.com/'} click={privateAlert} alt={'screenshot of BroFit Personal Training website'} appTitle={'BroFit Personal Training'} content={'HTML | BootStrap | CSS | JavaScript'} photo_icon={'img/gym.webp'} />
+
+        {/* gym.webp Photo by Leon Ardho: https://www.pexels.com/photo/barbell-on-the-floor-1552252/ */}
+
         {/* Outta-Touch */}
-        <Project src={"/img/OuttaTouch.webp"} deployment={'https://outta-touch.herokuapp.com/'} repository={'https://github.com/argounova/outta-touch'} alt={'screenshot of outta touch application'} appTitle={'OUTTA TOUCH'} content={'MERN stack | Apollo | Websocket/GraphQL subscriptions'} />
+        <Project src={"/img/OuttaTouch.webp"} deployment={'https://outta-touch.herokuapp.com/'} repository={'https://github.com/argounova/outta-touch'} alt={'screenshot of outta touch application'} appTitle={'OUTTA TOUCH'} content={'MERN stack | Apollo | Websocket/GraphQL subscriptions'} photo_icon={'img/lonely.webp'} />
+
+        {/* lonely.webp Photo by mikoto.raw Photographer : https://www.pexels.com/photo/photo-of-woman-using-mobile-phone-3367850/ */}
+
+
         {/* MTG ++ App */}
-        <Project src={"/img/MTGpp.webp"} deployment={'https://peaceful-escarpment-11973.herokuapp.com/'} repository={'https://github.com/HammontreeWebDev/MTGpp'} alt={'screenshot of MGT++ deck building application'} appTitle={'MTG++'} content={'Node.js | Express.js | MySQL | JavaScript | jQuery | Handlebars | Bootstrap | CSS'} />
+        <Project src={"/img/MTGpp.webp"} deployment={'https://peaceful-escarpment-11973.herokuapp.com/'} repository={'https://github.com/HammontreeWebDev/MTGpp'} alt={'screenshot of MGT++ deck building application'} appTitle={'MTG++'} content={'Node.js | Express.js | MySQL | JavaScript | jQuery | Handlebars | Bootstrap | CSS'} photo_icon={'img/falling.webp'} />
+
+        {/* falling.webp Photo by Tim Grundtner: https://www.pexels.com/photo/woman-in-white-dress-falling-on-gray-concrete-floor-3856635/ */}
+
         {/* PokéWire App */}
-        <Project src={"/img/pokewire.webp"} deployment={'https://luckysal.github.io/pokewire/index.html'} repository={'https://github.com/LuckySal/pokewire'} alt={'screenshot of PokéWire application'} appTitle={'PokéWire'} content={'HTML5 | JavaScript | jQuery | Bulma | CSS | API'} />
+        <Project src={"/img/pokewire.webp"} deployment={'https://luckysal.github.io/pokewire/index.html'} repository={'https://github.com/LuckySal/pokewire'} alt={'screenshot of PokéWire application'} appTitle={'PokéWire'} content={'HTML5 | JavaScript | jQuery | Bulma | CSS | API'} photo_icon={'img/child.webp'} />
+
+        {/* child.webp Photo by Soner Arkan: https://www.pexels.com/photo/little-boy-running-on-beach-rocks-with-a-pikachu-balloon-17504187/ */}
+
       </main>
     </>
   )
