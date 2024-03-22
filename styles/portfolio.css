@@ -36,6 +36,8 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 color: var(--light-blue);
+background-color: var(--trans-shade4);
+border-radius: 1rem;
 }
 
 .custom-figure-img {
@@ -76,21 +78,27 @@ color: var(--light-blue);
 @media screen and (max-width: 1200px){
     .custom-figure {
         flex-flow: column-reverse;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        padding: 0%;
+        margin: 0%;
     }
 
     .project-row {
         width: 100%;
     }
+
+    .content-container {
+        padding: 2%;
+        border-radius: 0rem;
+    }
 }
 /* 711 px */
 @media screen and (max-width: 711px) {
 
-    /* .custom-figure {
-        width: 400px;
-        height: 200px;
-    } */
+    .custom-figure {
+        min-height: 80vh;
+    }
     .project-title {
         font-size: 130%;
     }
