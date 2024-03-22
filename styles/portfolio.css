@@ -9,11 +9,26 @@
 .custom-figure {
     margin: 3%;
     display: flex;
-    width: 650px;
-    height: 325px;
-    border: 2px solid var(--light-pink);
-    border-radius: 5px;
-    position: relative;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid var(--light-pink); */
+    /* border-radius: 5px; */
+}
+.project-row{
+    width: 50%;
+}
+
+.alt-color{
+    color: var(--light-pink);
+}
+
+.content-container {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+color: var(--light-blue);
 }
 
 .custom-figure-img {
@@ -23,22 +38,7 @@
     border-radius: 3px;
 }
 
-.custom-figure-content {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    color: transparent;
-}
 
-.custom-figure-content:hover {
-    color: var(--shade4);
-    background-color: var(--trans-shade2);
-
-}
 
 .project-title {
     font-family: var(--distressed);
@@ -48,11 +48,6 @@
 .project-content {
     /* font-family: var(--rubik); */
     text-align: center;
-}
-
-/* target the span element's text color in the project component */
-.custom-figure-content:hover .alt-color {
-    color: var(--light-pink);
 }
 
 .project-icon-container {
