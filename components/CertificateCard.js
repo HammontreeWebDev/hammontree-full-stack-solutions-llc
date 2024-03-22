@@ -37,7 +37,11 @@ function CertificateCard(props) {
     }, []);
 
     return (
-        <div className="custom-figure">
+        <div className="custom-figure"
+            style={{
+                backgroundImage: `url(${props.photo_icon})`
+            }}
+        >
 
             <ZoomInRightDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={zoomInRef}>
                 <img src={props.src} className="custom-figure-img" alt={props.alt} />

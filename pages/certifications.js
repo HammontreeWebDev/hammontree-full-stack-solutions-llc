@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import CertificateCard from "../components/CertificateCard";
-import PageTitle from "../components/PageTitle";
 
 function Certifications() {
 
@@ -13,8 +12,6 @@ function Certifications() {
                 <meta name="keywords" content="certifications, education, Kaileb Hammontree, University Of Central Florida, Web Developer, react, front-end, full-stack, back-end" />
                 <link rel="canonical" href="https://www.kailebhammontree.com/certifications" />
             </Head>
-
-            <PageTitle content={'Certifications'} icon={'iconamoon:certificate-badge-fill'}/>
 
             <main className="portfolio-body">
 
