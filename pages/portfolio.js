@@ -23,11 +23,14 @@ const Portfolio = (props) => {
         <link rel="canonical" href="https://www.kailebhammontree.com/portfolio" />
       </Head>
 
-      <PageTitle content={'Portfolio'} icon={'emojione-v1:blue-book'}/>
+      {/* <PageTitle content={'Portfolio'} icon={'emojione-v1:blue-book'}/> */}
 
       <main className='portfolio-body'>
         {/* J-Boo Customs Website / Jesse Ryder Brown Foundation, Inc.*/}
-        <Project src={"/img/jboo-mockup.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} />
+        <Project src={"/img/jboo-mockup.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} photo_icon={'/img/palm-tree.webp'}/>
+
+        {/* palm-tree.webp: Photo by ROMAN ODINTSOV: https://www.pexels.com/photo/scenic-view-of-tropical-beach-4870612/ */}
+
         {/* BroFit Personal Training */}
         <Project src={"/img/Brofit.webp"} deployment={'https://www.reesewilder.com/'} click={privateAlert} alt={'screenshot of BroFit Personal Training website'} appTitle={'BroFit Personal Training'} content={'HTML | BootStrap | CSS | JavaScript'} />
         {/* Outta-Touch */}

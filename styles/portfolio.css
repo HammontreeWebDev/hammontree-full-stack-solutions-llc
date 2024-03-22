@@ -7,12 +7,12 @@
 }
 
 .custom-figure {
-    margin: 3%;
     display: flex;
     width: 100%;
     height: auto;
-    /* border: 2px solid var(--light-pink); */
-    /* border-radius: 5px; */
+    padding: 3%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .project-row{
     width: 50%;
