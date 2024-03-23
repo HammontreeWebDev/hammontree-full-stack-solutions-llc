@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
     return (
         <SSRProvider>
             <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" href="/img/favicon.ico" />
                 <link rel="preload" href="/img/background.webp" as="image"></link>
             </Head>
