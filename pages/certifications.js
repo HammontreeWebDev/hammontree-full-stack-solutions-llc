@@ -16,7 +16,7 @@ function Certifications() {
             <main className="portfolio-body">
 
                 {/* UCF Coding Boot Camp*/}
-                <CertificateCard src={"/img/coding-cert.webp"} verification={'https://badgr.com/public/assertions/ewkha2NyQ8-IAo-788fTUA'} alt={'UCF Full-Stack Coding Boot Camp Certificate'} appTitle={'UCF Coding Boot Camp'} photo_icon={'img/bootcamp-bg.webp'} lowResPhoto={'img/bootcamp-low-res.webp'}/>
+                <CertificateCard src={"/img/coding-cert.webp"} verification={'https://badgr.com/public/assertions/ewkha2NyQ8-IAo-788fTUA'} alt={'UCF Full-Stack Coding Boot Camp Certificate'} appTitle={'UCF Coding Boot Camp'} photo_icon={'img/bootcamp-bg.webp'} lowResPhoto={'img/bootcamp-bg-low-res.webp'}/>
 
                 {/* bootcamp-bg.webp Photo by Danny Meneses: https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/ */}
 

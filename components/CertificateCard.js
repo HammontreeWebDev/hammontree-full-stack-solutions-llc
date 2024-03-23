@@ -8,7 +8,6 @@ function CertificateCard(props) {
 
     const zoomInRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
-
     const [highResLoaded, setHighResLoaded] = useState(false);
 
     useEffect(() => {
