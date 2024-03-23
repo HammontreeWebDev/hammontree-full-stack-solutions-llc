@@ -100,6 +100,7 @@ border-radius: 1rem;
 @media screen and (max-width: 768px) {
     .custom-figure {
         background-attachment: initial;
+        background-size: auto 100%;
     }
 }
 
@@ -119,5 +120,11 @@ border-radius: 1rem;
 
     .project-icon-container {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .custom-figure {
+        background-size: auto auto;
     }
 }
