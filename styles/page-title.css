@@ -1,5 +1,15 @@
 .page-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
     text-align: center;
-    margin-top: 1%;
     color: var(--light-blue);
+}
+
+.page-title-text {
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--trans-shade4);
 }

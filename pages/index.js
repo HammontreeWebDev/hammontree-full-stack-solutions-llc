@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Welcome from '../components/Welcome';
 import MobileWelcome from '../components/MobileWelcome';
+import PageTitle from '../components/PageTitle';
 
 const IndexPage = () => {
   const [shouldRender, setShouldRender] = useState(false);
@@ -23,7 +24,10 @@ const IndexPage = () => {
       {shouldRender && (
         <main className="home-page">
           {typeof window !== 'undefined' && window.innerWidth > 540 ? (
+            <>
+            <PageTitle content={"Turning Dreams Into Digital Reality"}/>
             <Welcome />
+            </>
           ) : (
             <MobileWelcome />
           )}

@@ -52,6 +52,11 @@ body::-webkit-scrollbar-thumb {
     color: var(--light-pink);
 }
 
+.home-page {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
     body {
         background-attachment: initial;

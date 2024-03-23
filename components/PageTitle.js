@@ -8,7 +8,7 @@ function PageTitle(props) {
 
     return(
         <div className="page-title">
-                <FadeInH1>
+                <FadeInH1 className="page-title-text">
                     {props.content} <Icon icon={props.icon} />
                 </FadeInH1>
             </div>
