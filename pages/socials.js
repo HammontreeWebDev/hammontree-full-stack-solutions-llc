@@ -2,6 +2,7 @@ import React from "react";
 import { FadeInDiv } from "../utils/Animations";
 import { Icon, enableCache } from "@iconify/react";
 import Head from "next/head";
+import PageTitle from "../components/PageTitle";
 
 enableCache("local");
 
@@ -16,6 +17,7 @@ function Socials(props) {
             </Head>
 
             <main className="socials-main">
+                <PageTitle content={"Connect With Me On Social Media"} />
                 <section className="social-wrapper">
                     <FadeInDiv className="social-container">
 

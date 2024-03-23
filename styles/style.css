@@ -18,6 +18,9 @@
     --trans-shade4: rgba(50, 59, 64, .9);
     --alt-trans-shade4: rgba(50, 59, 64, .5);
 
+    /* gradients */
+    --bg-gradient: linear-gradient(to bottom, var(--trans-shade4), var(--matte-blue));
+
     /* Google fonts: */
     --rubik: 'Rubik', sans-serif;
     --dirt: 'Rubik Dirt', cursive;

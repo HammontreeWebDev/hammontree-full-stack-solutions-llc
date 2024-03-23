@@ -1,8 +1,10 @@
 .socials-main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+    background: var(--bg-gradient);
 }
 
 .social-wrapper {
@@ -11,6 +13,7 @@
     justify-content: space-around;
     align-items: space-around;
     flex: 1;
+    width: 100%;
 }
 
 .social-container {
