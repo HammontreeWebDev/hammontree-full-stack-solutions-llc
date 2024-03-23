@@ -25,7 +25,7 @@ const IndexPage = () => {
         <main className="home-page">
           {typeof window !== 'undefined' && window.innerWidth > 540 ? (
             <>
-            <PageTitle content={"Turning Dreams Into Digital Reality"}/>
+            <PageTitle content={"Transforming Dreams Into Digital Reality"}/>
             <Welcome />
             </>
           ) : (
