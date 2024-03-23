@@ -14,7 +14,7 @@ function Project(props) {
         const options = {
             root: null,
             rootmargin: "Opx",
-            threshold: 0.5
+            threshold: 0.1
         };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -47,7 +47,7 @@ function Project(props) {
     }, [props.photo_icon]);
 
     const backgroundStyle = highResLoaded ? {backgroundImage: `url(${props.photo_icon})`} : {backgroundImage: `url(${props.lowResPhoto})`}
-    
+
     return (
         <div className="custom-figure" style={backgroundStyle}>
                     <FadeInDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={fadeInRef}>

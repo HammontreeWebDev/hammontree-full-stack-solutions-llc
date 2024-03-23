@@ -9,11 +9,13 @@ function CertificateCard(props) {
     const zoomInRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 
+    const [highResLoaded, setHighResLoaded] = useState(false);
+
     useEffect(() => {
         const options = {
             root: null,
             rootmargin: "0px",
-            threshold: 0.5
+            threshold: 0.1
         };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -36,12 +38,18 @@ function CertificateCard(props) {
         };
     }, []);
 
+    useEffect(() => {
+        const highResImage = new Image();
+        highResImage.src = props.photo_icon;
+        highResImage.onload = () => {
+            setHighResLoaded(true);
+        };
+    }, [props.photo_icon]);
+
+    const backgroundStyle = highResLoaded ? {backgroundImage: `url(${props.photo_icon})`} : {backgroundImage: `url(${props.lowResPhoto})`}
+
     return (
-        <div className="custom-figure"
-            style={{
-                backgroundImage: `url(${props.photo_icon})`
-            }}
-        >
+        <div className="custom-figure" style={backgroundStyle}>
 
             <ZoomInRightDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={zoomInRef}>
                 <img src={props.src} className="custom-figure-img" alt={props.alt} />

@@ -14,7 +14,9 @@
     padding: 3%;
     background-size: cover;
     background-attachment: fixed;
+    background-position: 50% 50%;
 }
+
 .project-row{
     width: 50%;
     opacity: 0;
@@ -93,6 +95,13 @@ border-radius: 1rem;
         border-radius: 0rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .custom-figure {
+        background-size: auto 100%;
+    }
+}
+
 /* 711 px */
 @media screen and (max-width: 711px) {
 
