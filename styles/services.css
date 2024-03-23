@@ -5,6 +5,7 @@
     justify-content: flex-start;
     align-items: center;
     flex: 1;
+    background: var(--bg-gradient);
 }
 
 .services-main h1 {
@@ -28,6 +29,7 @@
     background-color: var(--trans-shade4);
     border-radius: 1rem;
     padding: 1%;
+    margin-top: 1%;
 }
 
 .sub-container {
