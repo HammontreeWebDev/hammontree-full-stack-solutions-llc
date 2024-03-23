@@ -3,6 +3,7 @@ import { FadeInSection, BounceInRightP, BounceInRightLabel } from '../utils/Anim
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import Head from 'next/head';
+import PageTitle from '../components/PageTitle';
 
 function Contact(props) {
 
@@ -115,6 +116,8 @@ function Contact(props) {
                 <link rel="canonical" href="https://www.kailebhammontree.com/contact" />
             </Head>
             <main className='contact-main'>
+
+                <PageTitle content={"Contact Information"} />
 
                 <FadeInSection className='form-card'>
                     <h2 className='form-header'>General Inquiry Form</h2>
