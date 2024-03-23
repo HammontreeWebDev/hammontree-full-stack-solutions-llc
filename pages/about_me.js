@@ -36,7 +36,7 @@ function AboutMe(props) {
                         There is no doubt that my work ethic, practical experience, and knowledge will allow me to tackle any project that comes my way.
                         <br />
                         <br />
-                        Feel free to navigate to the portfolio tab and check out various projects that I have completed. Click on the preview icon if you want to visit the website/application and test it for yourself!
+                        Feel free to navigate to the resume tab and check out various projects that I have completed. Click on the preview icon if you want to visit the website/application and test it for yourself!
                         <br />
                         <br />
                         Again, thank you for being here. I am looking forward to hearing from you!
