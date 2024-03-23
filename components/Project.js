@@ -8,6 +8,7 @@ function Project(props) {
 
     const fadeInRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const [highResLoaded, setHighResLoaded] = useState(false);
 
     useEffect(() => {
         const options = {
@@ -37,14 +38,18 @@ function Project(props) {
 
     }, []);
 
+    useEffect(() => {
+        const highResImage = new Image();
+        highResImage.src = props.photo_icon;
+        highResImage.onload = () => {
+            setHighResLoaded(true);
+        };
+    }, [props.photo_icon]);
+
+    const backgroundStyle = highResLoaded ? {backgroundImage: `url(${props.photo_icon})`} : {backgroundImage: `url(${props.lowResPhoto})`}
+    
     return (
-        <div className="custom-figure"
-
-            style={{
-                backgroundImage: `url(${props.photo_icon})`
-            }}
-
-        >
+        <div className="custom-figure" style={backgroundStyle}>
                     <FadeInDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
                         <img src={props.src} className="custom-figure-img" alt={props.alt} />
                     </FadeInDiv>
