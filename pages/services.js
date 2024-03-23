@@ -15,10 +15,9 @@ const Services = (props) => {
                 <link rel="canonical" href="https://www.kailebhammontree.com/services" />
             </Head>
 
-            <PageTitle content={'Web Development'} icon={'noto:laptop'} />
-
             <main className="services-main">
-                <LongFadeInDiv>
+                <LongFadeInDiv className="start-project">
+                    <PageTitle content={'Web Development'} icon={'noto:laptop'} />
                     <h3 className="disclaimer">Ready To Start Your Project? Fill Out An&nbsp;
                         <span>
                             <Link className="contact-link" href="https://app.hellobonsai.com/f/a14a29cd17402aa" target="_blank" >Interest Form</Link>

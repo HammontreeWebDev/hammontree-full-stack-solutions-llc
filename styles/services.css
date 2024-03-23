@@ -24,6 +24,12 @@
     text-underline-offset: 5%;
 }
 
+.start-project {
+    background-color: var(--trans-shade4);
+    border-radius: 1rem;
+    padding: 1%;
+}
+
 .sub-container {
     display: flex;
     flex-flow: column wrap;
@@ -39,6 +45,9 @@
     flex-direction: column;
     align-items: space-around;
     margin-top: 1%;
+    padding: 1%;
+    border-radius: 1rem;
+    background-color: var(--trans-shade4);
 }
 .service-column h2 {
     color: var(--light-pink);
