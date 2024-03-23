@@ -2,6 +2,7 @@ import React from 'react';
 import { FadeInSection, FadeInUl, FadeInUpH5 } from '../utils/Animations';
 import { Icon } from '@iconify/react';
 import Head from 'next/head';
+import PageTitle from '../components/PageTitle';
 
 // we copied the about me card here, so it is inheriting some of the custom card classes from that css file
 function Resume(props) {
@@ -15,6 +16,7 @@ function Resume(props) {
                 <link rel="canonical" href="https://www.kailebhammontree.com/resume" />
             </Head>
             <main className='about-me-body'>
+                <PageTitle content={"Resume"}/>
                 <FadeInSection className=' custom-card'>
                     <div className='resume-card-header'>
                         <h2> Download <span><a className='resume-btn hvr-skew hvr-pulse-grow' href="/pdf/Technical-Resume.pdf" download='Kaileb_Hammontree_Resume' target='blank'><Icon icon='material-symbols:arrow-forward-rounded' /> <Icon icon='icon-park-solid:folder-download' /></a></span> </h2>
