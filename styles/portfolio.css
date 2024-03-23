@@ -15,6 +15,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 50%;
+    opacity: 0;
 }
 
 .project-row{

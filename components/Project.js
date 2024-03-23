@@ -46,23 +46,33 @@ function Project(props) {
         };
     }, [props.photo_icon]);
 
-    const backgroundStyle = highResLoaded ? {backgroundImage: `url(${props.photo_icon})`} : {backgroundImage: `url(${props.lowResPhoto})`}
+    const backgroundStyle = highResLoaded ?
+        {
+            backgroundImage: `url(${props.photo_icon})`,
+            transition: 'opacity 1.5s ease-in-out',
+            opacity: 1
+        } :
+        { 
+            backgroundImage: `url(${props.lowResPhoto})`,
+            transition: 'opacity 1.5s ease-in-out',
+            opacity: 1
+        };
 
     return (
         <div className="custom-figure" style={backgroundStyle}>
-                    <FadeInDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
-                        <img src={props.src} className="custom-figure-img" alt={props.alt} />
-                    </FadeInDiv>
+            <FadeInDiv className={`project-row ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
+                <img src={props.src} className="custom-figure-img" alt={props.alt} />
+            </FadeInDiv>
 
-                    <FadeInDiv className={`project-row content-container ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
-                        <h1 className="project-title">{props.appTitle}</h1>
-                        <p className="project-content"> <strong>Built With: </strong><span className="alt-color">{props.content}</span></p>
-                        <div className="project-icon-container">
-                            <a className="project-links" href={props.repository} target="_blank" rel="noopener noreferrer" onClick={props.click}><Icon icon="uim:github-alt" /></a>
-                            <a className="project-links" href={props.deployment} target="_blank" rel="noopener noreferrer"><Icon icon="eos-icons:application-instance" /></a>
-                        </div>
-                    </FadeInDiv>
-             
+            <FadeInDiv className={`project-row content-container ${isVisible ? "visible" : ""}`} ref={fadeInRef}>
+                <h1 className="project-title">{props.appTitle}</h1>
+                <p className="project-content"> <strong>Built With: </strong><span className="alt-color">{props.content}</span></p>
+                <div className="project-icon-container">
+                    <a className="project-links" href={props.repository} target="_blank" rel="noopener noreferrer" onClick={props.click}><Icon icon="uim:github-alt" /></a>
+                    <a className="project-links" href={props.deployment} target="_blank" rel="noopener noreferrer"><Icon icon="eos-icons:application-instance" /></a>
+                </div>
+            </FadeInDiv>
+
 
         </div>
     )

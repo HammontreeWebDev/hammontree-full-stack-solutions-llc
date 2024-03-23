@@ -45,7 +45,17 @@ function CertificateCard(props) {
         };
     }, [props.photo_icon]);
 
-    const backgroundStyle = highResLoaded ? {backgroundImage: `url(${props.photo_icon})`} : {backgroundImage: `url(${props.lowResPhoto})`}
+    const backgroundStyle = highResLoaded ?
+        {
+            backgroundImage: `url(${props.photo_icon})`,
+            transition: 'opacity 1.5s ease-in-out',
+            opacity: 1
+        } :
+        {
+            backgroundImage: `url(${props.lowResPhoto})`,
+            transition: 'opacity 1.5s ease-in-out',
+            opacity: 1
+        };
 
     return (
         <div className="custom-figure" style={backgroundStyle}>
