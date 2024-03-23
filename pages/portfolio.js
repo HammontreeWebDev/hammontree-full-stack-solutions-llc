@@ -3,6 +3,7 @@ import Project from "../components/Project";
 import Swal from 'sweetalert2';
 import Head from "next/head";
 import useMediaQuery from "../utils/useMediaQuery";
+import PageTitle from "../components/PageTitle";
 
 const Portfolio = (props) => {
 
@@ -26,6 +27,8 @@ const Portfolio = (props) => {
       </Head>
 
       <main className='portfolio-body'>
+
+        <PageTitle content={"Portfolio"} />
 
         {/* J-Boo Customs Website / Jesse Ryder Brown Foundation, Inc.*/}
         <Project src={"/img/jboo-mockup.webp"} deployment={'https://www.j-boocustoms.org/'} repository={'https://github.com/HammontreeWebDev/j-boo-customs-nextJS'} alt={'screenshot of J-Boo Customs Website'} appTitle={'Jesse Ryder Brown Foundation, Inc'} content={'ReactJS | NextJS | Node.js | Custom CSS'} photo_icon={ isSmallScreen ? 'img/motocross-mobile.webp' : 'img/motocross.webp'} lowResPhoto={'img/motocross-low-res.webp'} />

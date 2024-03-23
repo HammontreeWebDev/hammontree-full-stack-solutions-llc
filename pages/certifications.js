@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import CertificateCard from "../components/CertificateCard";
 import useMediaQuery from "../utils/useMediaQuery";
+import PageTitle from "../components/PageTitle";
 
 function Certifications() {
 
@@ -17,6 +18,8 @@ function Certifications() {
             </Head>
 
             <main className="portfolio-body">
+
+                <PageTitle content={"Certifications"}/>
 
                 {/* UCF Coding Boot Camp*/}
                 <CertificateCard src={"/img/coding-cert.webp"} verification={'https://badgr.com/public/assertions/ewkha2NyQ8-IAo-788fTUA'} alt={'UCF Full-Stack Coding Boot Camp Certificate'} appTitle={'UCF Coding Boot Camp'} photo_icon={ isSmallScreen ? 'img/bootcamp-bg-mobile.webp' : 'img/bootcamp-bg.webp'} lowResPhoto={'img/bootcamp-bg-low-res.webp'}/>
