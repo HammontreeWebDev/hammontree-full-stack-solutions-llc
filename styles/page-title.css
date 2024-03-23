@@ -5,6 +5,8 @@
     padding: 2%;
     text-align: center;
     color: var(--light-blue);
+    width: 100%;
+    background-color: var(--shade4);
 }
 
 .page-title-text {

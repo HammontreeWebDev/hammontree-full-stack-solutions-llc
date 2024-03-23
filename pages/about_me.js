@@ -1,6 +1,7 @@
 import React from "react";
 import { FadeInSection, BounceInRightImg, BounceInRightH5 } from "../utils/Animations";
 import Head from "next/head";
+import PageTitle from "../components/PageTitle";
 
 function AboutMe(props) {
 
@@ -13,6 +14,7 @@ function AboutMe(props) {
         <link rel="canonical" href="https://www.kailebhammontree.com/about_me" />
       </Head>
         <main className="about-me-body main-bg">
+            <PageTitle content={"Who Am I?"}/>
             <FadeInSection className=" custom-card">
                 <h2 className="custom-card-header">
                     Biography
