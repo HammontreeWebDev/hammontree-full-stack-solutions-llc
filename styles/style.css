@@ -51,3 +51,9 @@ body::-webkit-scrollbar-thumb {
 .text-pink {
     color: var(--light-pink);
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: initial;
+    }
+}
