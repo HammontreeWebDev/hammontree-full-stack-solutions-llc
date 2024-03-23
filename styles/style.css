@@ -27,9 +27,9 @@
 
 body {
     /* set background image for entire body that will be there regardless of what component is shown */
-    background-image: url("/img/background.webp");
+    background-image: url("/img/background2.webp");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 100%;
     background-repeat: no-repeat;
     /* fixed background for continuity */
     background-attachment: fixed;
